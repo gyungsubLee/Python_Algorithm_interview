@@ -3,7 +3,7 @@ cnt = 0
 
 while sugar >= 0:
     if sugar % 5 == 0:
-        cnt += (sugar // 5)
+        cnt += sugar // 5
         print(cnt)
         break
     sugar -= 3
