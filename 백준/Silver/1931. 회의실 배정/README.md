@@ -22,3 +22,21 @@
 
  <p>첫째 줄에 최대 사용할 수 있는 회의의 최대 개수를 출력한다.</p>
 
+
+ <br/>
+
+ ## ✍️ 풀이)
+
+ <p>그리디 개념을 이용한 문제로 당장의 상황을 기준으로 확장시키는 방향으로 푼다.</p>
+
+ <p><span style="color:tomato">종료시간이 빨리 끝</span>날 수록 최대 사용할 수 있는 가장 많은 회의를 열 수 있다. 따라서 <span style="color:tomato">종료 시간을 기준으로 정렬</span>하여 시작 시간과 비교하여 count 하여 해결한다.</p>
+
+ <p>종료시간이 같은 경우 예를 드어 (10, 10)회의 와 (9, 10)회의가 있을 때, 둘의 종료시간은 같지만, (9, 10)을 먼저 선택하면, (10, 10)을 선택할 수 있지만 (10, 10)을 먼저 선택하는 경우 (9, 10)을 선택할 수 없다.
+ 따라서 <span style="color:tomato">lambda를 사용하여 종료 시간 정렬 후 시작 시간도 정렬</span> 처리한다.(key = lambda x: x[1], x[0])</p>
+
+ Reference)
+ https://hongcoding.tistory.com/22
+ https://jokerldg.github.io/algorithm/2021/03/11/meeting-room.html
+ https://suri78.tistory.com/26
+
+
