@@ -34,9 +34,9 @@
  <p>종료시간이 같은 경우 예를 드어 (10, 10)회의 와 (9, 10)회의가 있을 때, 둘의 종료시간은 같지만, (9, 10)을 먼저 선택하면, (10, 10)을 선택할 수 있지만 (10, 10)을 먼저 선택하는 경우 (9, 10)을 선택할 수 없다.
  따라서 <span style="color:tomato">lambda를 사용하여 종료 시간 정렬 후 시작 시간도 정렬</span> 처리한다.(key = lambda x: x[1], x[0])</p>
 
- Reference)
- https://hongcoding.tistory.com/22
- https://jokerldg.github.io/algorithm/2021/03/11/meeting-room.html
- https://suri78.tistory.com/26
+ Reference)<br/>
+ https://hongcoding.tistory.com/22<br/>
+ https://jokerldg.github.io/algorithm/2021/03/11/meeting-room.html<br/>
+ https://suri78.tistory.com/26<br/>
 
 

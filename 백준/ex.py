@@ -1,22 +1,31 @@
-import sys
+# 풀이3) - 책풀이
+n, m, k = map(int, input().split()) # n:배열크기, m: 더하는 횟수, k:최대 반복 횟수
+a = list(map(int, input().split())) # a: 배열
 
-N = int(input())
-time = []
+a.sort()
+first = a[n-1] # 가장 큰 수
+second = a[n-2] # 두 번째로 큰 수
 
-for _ in range(n):
-    start, end = map(int, input().split())
-    time.append([start, end])
+# 가장 큰 수가 더해지는 횟수 계산
+count = (m // (k + 1)) * k + m % (k + 1)
+print(count)
 
-time.sort(key = lambda x: (x[1], x[0]))
+result = count*first + (m-count)*second
 
-cnt = 1
-end = time[0][1]
-for i in range(1, N):
-    if time[i][0] >= end:
-        cnt += 1
-        end = time[i][1]
-    
-print(cnt)
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
