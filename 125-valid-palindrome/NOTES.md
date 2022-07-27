@@ -28,6 +28,42 @@ return Ture
 Array(배열)은 물리적 메모리에 연속적으로 저장되어 있기 때문에 데이터의 삭제 및 삽입 시 메모리 공간을 한 칸씩 당기거나 미루는 과정이 필요하다. <br/>
 따라서 ```pop(0)```은 **O(n)의 시간 복잡도**를 가져 **전체 시간 복잡도는 O(n²)** 가진다.
 
+
+<img src="../이미지/유효한팰린드롬/유효한팰린드롬-deque시간복잡도1.png" width=50% />
+
 <br>
 
 ## 풀이2) Deque 최적화
+
+Deque 자료형으로 최적화
+> ### 🤔 Deque란? 
+> 양쪽으로 데이터 삽입, 삭제가 가능한 자료형 (스택 + 큐)<br/>
+> pop(0) -> popleft(): O(1) 
+
+<br>
+
+deque 가져오기
+
+```python
+from collections import deque       # JavaScript랑 순서 반대
+```
+
+<br>
+
+deque 선언
+```python
+strs: Deque = deque()
+```
+<br>
+
+pop(0) -> popleft()
+```python
+while len(strs) > 1:
+    if strs.popleft() != strs.pop():
+        return False
+```
+
+Array -> deque 로 자료형을 변환 
+O(n)의 시간복잡도로 설계가 가능하다. 
+
+<img src="../이미지/%EC%9C%A0%ED%9A%A8%ED%95%9C%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC-deque%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.png" width=50% />
