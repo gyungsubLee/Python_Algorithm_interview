@@ -1,5 +1,13 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        s = s.lower(); # lower(): 복사해 소문자로 변환하여 반환
-        ispal = re.sub('[^a-z0-9]', '', s)
-        return ispal == ispal[::-1]
+        str = []
+        for char in s:
+            if char.isalnum():
+                str.append(char.lower())
+                
+        while len(str) > 1:
+            if str.pop(0) != str.pop():
+                return False
+        
+        return True
+            
