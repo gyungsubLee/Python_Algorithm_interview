@@ -1,14 +1,7 @@
 from collections import deque
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        str = deque()
-        for char in s:
-            if char.isalnum():
-                str.append(char.lower())
-                
-        while len(str) > 1:
-            if str.popleft() != str.pop():
-                return False
-        
-        return True
+        s = s.lower()
+        ispal = re.sub('[^a-z0-9]', '', s)
+        return ispal == ispal[::-1]
             
