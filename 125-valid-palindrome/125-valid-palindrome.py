@@ -1,14 +1,15 @@
+from collections import deque
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        strs=[]
+        # 자료형 Deque로 선언
+        strs: Deque = deque()
+
         for char in s:
-            if char.isalnum(): # isalnum(): 영문자, 숫자 여부 판단(영:True, 숫자:False)
-                strs.append(char.lower()) # lower(): 소문자 변환
-        
+            if char.isalnum():
+                strs.append(char.lower())
+
         while len(strs) > 1:
-            if strs.pop(0) != strs.pop():
+            if strs.popleft() != strs.pop():
                 return False
-        
-        
+
         return True
-                
