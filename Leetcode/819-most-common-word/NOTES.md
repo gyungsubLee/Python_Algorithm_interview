@@ -1,4 +1,4 @@
-​## ✍️ 풀이1(리스트 컴프리헨션, max)
+## ✍️ 풀이1(리스트 컴프리헨션, max)
 
 리스트 컴프리헨션 + 정규식
 > ### ● 리스트 컴프리헨션
@@ -30,6 +30,8 @@ for word in words:
 
 return max(counts, key=counts.get)
 ```
+<br/>
+<br/>
 
 ## ✍️ 풀이2(Counter)
 
