@@ -14,5 +14,31 @@ for entry in enumerate(['A', 'B', 'C']):
 (2, 'C')
 ```
 
+<br>
 
+### 👉 시작 인덱스 변경
+
+
+```python
+>>> for i, letter in enumerate(['A', 'B', 'C'], start=1):
+...     print(i, letter)
+...
+1 A
+2 B
+3 C
+```
+
+```python
+>>> for i, letter in enumerate(['A', 'B', 'C'], start=101):
+...     print(i, letter)
+...
+101 A
+102 B
+103 C
+```
+<br>
+
+---
+Reference)<br/>
+https://www.daleseo.com/python-enumerate/
 
