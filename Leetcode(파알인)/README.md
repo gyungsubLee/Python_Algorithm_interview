@@ -36,7 +36,7 @@
     <td rowspan="6">문자열 조작</td>
     <td><a href="https://leetcode.com/problems/valid-palindrome/submissions/">유효한 팰린드롬</a></td>
     <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%ED%92%80%EC%9D%B41-Array.py">풀이1(Array)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%ED%92%80%EC%9D%B42-Deque.py">풀이2(Deque)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%ED%92%80%EC%9D%B43-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1.py">풀이3(슬라이싱)</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/NOTES.md">Notes</a></td>
+    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/NOTES.md">Notes</a><br/><a href="">슬라이싱</a></td>
   </tr>
 
   <tr>
@@ -48,7 +48,7 @@
   <tr>
     <td><a href="https://leetcode.com/problems/reorder-data-in-log-files/">로그파일 재정렬</a></td>
     <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/937-reorder-data-in-log-files/%ED%92%80%EC%9D%B41-%EB%9E%8C%EB%8B%A4.py">풀이1(lambda)</a>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/937-reorder-data-in-log-files/NOTES.md">Notes</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md">lambda</a></td>
+    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/937-reorder-data-in-log-files/NOTES.md">Notes</a><br/><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md">lambda</a></td>
   </tr>
 
 
@@ -61,17 +61,19 @@
 
    <tr>
     <td><a href="https://leetcode.com/problems/group-anagrams/submissions/">그룹 애너그램</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/%ED%92%80%EC%9D%B41(dict-%EC%A0%95%EB%A0%AC).py">풀이1-정렬</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/NOTES.md">Notes</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/%EC%A0%95%EB%A0%AC(sorted%2Csort).md">정렬(sort, sorted)</a></td>
+    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/%ED%92%80%EC%9D%B41(dict-%EC%A0%95%EB%A0%AC).py">풀이1(정렬)</a></td>
+    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/NOTES.md">Notes</a><br/><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/%EC%A0%95%EB%A0%AC(sorted%2Csort).md">정렬(sort, sorted)</a></td>
   </tr>
+
   <tr>
-      <td><a href="">가장 긴 팰린드롬 부분 문자열</a></td>
-      <td><a href="">풀이1</a>, <a href="">풀이2</a>, <a href="">풀이3</a></td>
-      <td><a href="">Notes</a></td>
+      <td><a href="https://leetcode.com/problems/longest-palindromic-substring/submissions/">가장 긴 팰린드롬 부분 문자열</a></td>
+      <td><a href="">풀이1(투포인트)(</a></td>
+      <td><a href="">Notes</a><br/><a href="">유니코드, UTF-8</a></td>
   </tr>
 
 
   <tr>
+      <td rowspan="6">배열</td>
       <td><a href=""></a></td>
       <td><a href="">풀이1</a>, <a href="">풀이2</a>, <a href="">풀이3</a></td>
       <td><a href="">Notes</a></td>
@@ -79,8 +81,42 @@
 
   <tr>
       <td><a href=""></a></td>
-      <td><a href="">풀이1</a>, <a href="">풀이2</a>, <a href="">풀이3</a></td>
-      <td><a href="">Notes</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
   </tr>
+
+  <tr>
+    <td><a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
 </table>
 
