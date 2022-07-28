@@ -5,4 +5,4 @@ class Solution:
         for word in strs:
             anagrams[''.join(sorted(word))].append(word)
             
-        return list(anagrams.values())
+        return anagrams.values()
