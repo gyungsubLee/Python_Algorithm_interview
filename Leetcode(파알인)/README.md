@@ -20,6 +20,7 @@
 <br>
 
 # 자료구조
+- [배열](https://velog.io/@dltjq2323/%EB%B0%B0%EC%97%B4)
 - [연결리스트](https://velog.io/@dltjq2323/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8Linked-List)
 - [스택](https://velog.io/@dltjq2323/%EC%8A%A4%ED%83%9DStack)
 - [큐](https://velog.io/@dltjq2323/%ED%81%90Queue)
@@ -73,7 +74,7 @@
 
 
   <tr>
-      <td rowspan="6">배열</td>
+      <td rowspan="6" href="https://velog.io/@dltjq2323/%EB%B0%B0%EC%97%B4">배열</td>
       <td><a href=""></a></td>
       <td><a href="">풀이1</a>, <a href="">풀이2</a>, <a href="">풀이3</a></td>
       <td><a href="">Notes</a></td>
