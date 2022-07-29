@@ -1,5 +1,5 @@
 class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
+    def productExceptSelf(self, nums):
         for i, n in enumerate(nums):
             out = []
             p = 1
@@ -14,4 +14,8 @@ class Solution:
                 out[i] = out[i] * p
                 p = p * nums[i]
             return out
+
+b = [1, 2, 3, 4]
+a = Solution()
+a.productExceptSelf(b)
             
