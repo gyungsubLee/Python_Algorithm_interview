@@ -83,6 +83,19 @@
   <tr>
       <td><a href="https://leetcode.com/problems/trapping-rain-water/">빗물 트래핑</a></td>
       <td>
+        <a href="">풀이1(투포인터)</a>, 
+        <a href="">풀이2(Stack)</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href="https://leetcode.com/problems/3sum/">세 수의 합</a></td>
+      <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
         <a href="">풀이3</a>
@@ -94,7 +107,20 @@
   </tr>
 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://leetcode.com/problems/array-partition/">배열 파티션1</a></td>
+      <td>
+        <a href="">풀이1(배열)</a>, 
+        <a href="">풀이2(짝수합)</a>, 
+        <a href="">풀이3(슬라이싱)</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href="https://leetcode.com/problems/product-of-array-except-self/">자신을 제외한 배열의 곱</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
@@ -107,7 +133,21 @@
   </tr>
 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">주식을 사고팔기 가장 좋은 시점</a></td>
+      <td>
+        <a href="">풀이1(min,max)</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+
+
+  <tr>
+    <td rowspan="6" href=""></td>
+    <td><a href="">배열 파티션1</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
@@ -118,6 +158,32 @@
         <br/><a href="">Notes</a>
       </td>
   </tr>
+  <tr>
+    <td><a href="">배열 파티션1</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+  <tr>
+    <td><a href="">배열 파티션1</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  
 
 </table>
 
