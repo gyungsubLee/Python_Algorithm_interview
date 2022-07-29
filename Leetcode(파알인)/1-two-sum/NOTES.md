@@ -89,7 +89,7 @@ for i, n in enumerate(nums):
 
 
 
-## ✍️ 풀이4(투포인터): X
+## ✍️ 풀이4(투포인터)
 
 ```python
 left, right = 0, len(nums)-1
@@ -101,9 +101,44 @@ while not left == rigth: # (left == rigth) = False인 경우
     return [left, right]
 ```
 투포인트를 이용해 O(n) 풀이가 가능하지만 해당 풀이는 오름차순으로 정렬(sort, sorted)을 해야 가능한 풀이다.
+정렬을 하게 되면 처음 주어진 요소들이 섞여 index를 찾을 수가 없다. 
 
-따라서 정렬을 하게 되면 처음 주어진 요소들이 섞여 index를 찾을 수가 없다. 
+<br/>
 
-투포인트 풀이는 value을 추출하는 경우에 쓰자. (O(n)에 직관적인 좋은 풀이임.) 
+따라서 nums을 copy하여 정렬 후 value를 찾고 nums.index(value)로 index를 찾는 방법으로 설계하였다. 
 
-<br/><br/>
+```python
+nums_copy = sorted(nums)
+
+...
+
+else:
+    return [nums.index(nums_copy[left]), nums.index(nums_copy[right])]
+```
+
+<br/>
+
+![](../../이미지/두수의합(n.1)/투포인터.png)
+
+
+위 case에서 오류가 생겼다.
+```.index()``` 는 같은 value가 입력되는 경우 최소 값을 return한다.
+
+따라서 value가 같은 경우 같지 않은 경우를 분류하여 <br/>같은 경우 ```index()```에 앞에 출력된 value의 index에 +1 한 범위 부터 끝까지 탐색하도록 아래와 같이 수정하였다. 
+
+```python
+elif nums_copy[left] != nums_copy[right]:
+    return [nums.index(nums_copy[left]), nums.index(nums_copy[right])]
+            
+else:
+    return [nums.index(nums_copy[left]), nums.index(nums_copy[right] ,nums.index(nums_copy[left])+1]
+```
+
+아래와 같이 정상적으로 실행된다. 
+
+<img src="../../이미지/두수의합(n.1)/투포인터2.png" width=60% />
+
+<br/>
+
+value 값을 구하라고 하면 맨위 코드로 쉽게 구할 수 있는데...
+index를 구하는 건 좀 번거로운 작업이 필요하다.

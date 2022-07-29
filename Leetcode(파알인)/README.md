@@ -68,7 +68,7 @@
 
   <tr>
       <td><a href="https://leetcode.com/problems/longest-palindromic-substring/submissions/">가장 긴 팰린드롬 부분 문자열</a></td>
-      <td><a href="">풀이1(투포인트)(</a></td>
+      <td><a href="">풀이1(투포인트)</a></td>
       <td><a href="">Notes</a><br/><a href="">유니코드, UTF-8</a></td>
   </tr>
 
@@ -76,7 +76,7 @@
   <tr>
       <td rowspan="6" href="https://velog.io/@dltjq2323/%EB%B0%B0%EC%97%B4">배열</td>
       <td><a href="https://leetcode.com/problems/two-sum/submissions/">두 수의 합</a></td>
-      <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B41(%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4).py">풀이1(브루트포스)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B42(in%ED%83%90%EC%83%89).py">풀이2(in탐색)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B43-2(%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC).py">풀이3(딕셔너리)</a><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B44(%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0)-X.py">풀이4(투포인트)</a></td>
+      <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B41(%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4).py">풀이1(브루트포스)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B42(in%ED%83%90%EC%83%89).py">풀이2(in탐색)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B43-2(%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC).py">풀이3(딕셔너리)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B44(%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0)-X.py">풀이4(투포인트)</a></td>
       <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/NOTES.md">Notes</a></td>
   </tr>
 
