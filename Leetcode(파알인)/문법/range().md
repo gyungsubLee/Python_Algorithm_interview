@@ -1,7 +1,7 @@
 # ✍️ range(start, stop, step)
 
 ## 👉 range(stop) [인자: 1]
-인자1개만 입력할 경우 start=0 으로 default 값으로 지정된다.
+인자1개만 입력할 경우: start=0(기본값), stop=5-1 **[0~4]**
 
 ```python
 >>> range(5) # start: 0, stop: 5-1
@@ -12,7 +12,7 @@
 
 ## 👉 range(start, stop) [인자: 2]
 ```python
->>> range(1, 5) # start: 1 , stop: 5-1
+>>> range(1, 5) # start: 1 , stop: 5-1  -> [1~4]
 [1, 2, 3, 4]
 ```
 

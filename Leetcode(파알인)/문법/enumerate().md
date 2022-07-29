@@ -1,7 +1,8 @@
 # ✍️ enumerate()
 
 ### 👉 enumerate(list)
-리스트의 index와 요소를 tuple 형태로 반환한다.
+리스트의 ```index```와 ```value```를 ```tuple``` 형태로 반환한다.
+-> ```(index, value)````
 
 보통 for문 과 함께 사용하며 list와 index를 이용하여 코드를 작성할때 쓴다. 
 
