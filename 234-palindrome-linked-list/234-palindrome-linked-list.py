@@ -8,7 +8,7 @@ class Solution:
         q:List = []
         
         if not head:
-            return False
+            return True
         
         node = head
         while node:
