@@ -107,7 +107,8 @@
   </tr>
 
   <tr>
-    <td><a href="https://leetcode.com/problems/array-partition/">배열 파티션1</a></td>
+    <td><a href="https://leetcode.com/problems/array-partition/">
+    배열 파티션1</a></td>
       <td>
         <a href="">풀이1(배열)</a>, 
         <a href="">풀이2(짝수합)</a>, 
@@ -147,24 +148,22 @@
 
   <tr>
     <td rowspan="7" href="">연결리스트</td>
-    <td><a href="">배열 파티션1</a></td>
+    <td><a href="https://leetcode.com/problems/palindrome-linked-list/submissions/">팰린드롬 연결리스트</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1(배열)</a>, 
+        <a href="">풀이2(데큐)</a>, 
+        <a href="">🤔 풀이3(런너)</a>
       </td>
       <td>
         <a href="">Notes</a>
-        <br/><a href="">Notes</a>
       </td>
   </tr>
   
   <tr>
-    <td><a href="">배열 파티션1</a></td>
+    <td><a href="https://leetcode.com/problems/merge-two-sorted-lists/"> 두 정렬 리스트 병합</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1(반복)</a>, 
+        <a href="">🤔풀이2(재귀</a>
       </td>
       <td>
         <a href="">Notes</a>
@@ -173,20 +172,18 @@
   </tr>
 
   <tr>
-    <td><a href="">배열 파티션1</a></td>
+    <td><a href="https://leetcode.com/problems/reverse-linked-list/">역순 연결리스트</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1(반복)</a>, 
+        <a href="">🤔 풀이2(재귀)</a>
       </td>
       <td>
         <a href="">Notes</a>
-        <br/><a href="">Notes</a>
       </td>
   </tr>
 
   <tr>
-    <td><a href="">배열 파티션1</a></td>
+    <td><a href="">두 수의 덧셈</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
