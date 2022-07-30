@@ -10,3 +10,7 @@ class Solution:
             right = max(right, h)
             waterLevel[i] = min(waterLevel[i], right) - h # drain to the right height
         return sum(waterLevel)
+s
+b = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+a = Solution()
+a.trap(b)

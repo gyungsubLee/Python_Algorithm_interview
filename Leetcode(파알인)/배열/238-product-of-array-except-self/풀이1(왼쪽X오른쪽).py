@@ -1,19 +1,17 @@
 class Solution:
     def productExceptSelf(self, nums):
-        for i, n in enumerate(nums):
-            out = []
-            p = 1
-            # 왼쪽 곱셈
-            for i in range(0, len(nums)):
-                out.append(p)
-                p = p * nums[i]
-                
-            p = 1
-            # 왼쪽 곱셈 결과에 오른쪽 값을 차례대로 곱셈
-            for i in range(len(nums)-1, 0-1, -1):
-                out[i] = out[i] * p
-                p = p * nums[i]
-            return out
+        list=[]
+        p=1
+        for i in range(len(nums)):
+            list.append(p)
+            p = p * nums[i]
+        
+        p=1
+        for i in range(len(nums)-1, 0-1, -1):
+            list[i] = list[i] * p
+            p = p * nums[i]
+            
+        return list
 
 b = [1, 2, 3, 4]
 a = Solution()

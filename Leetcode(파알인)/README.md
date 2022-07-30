@@ -83,9 +83,9 @@
   <tr>
       <td><a href="https://leetcode.com/problems/trapping-rain-water/">빗물 트래핑</a></td>
       <td>
-        <a href="">풀이1(투포인터)</a>, 
-        <a href="">풀이2(Stack)</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1-1(투포인터)</a>, 
+        <a href="">풀이1-2(투포인터)</a>, 
+        <a href="">🤔 풀이2(Stack)</a>
       </td>
       <td>
         <a href="">Notes</a>
@@ -94,7 +94,7 @@
   </tr>
 
   <tr>
-    <td><a href="https://leetcode.com/problems/3sum/">세 수의 합</a></td>
+    <td><a href="https://leetcode.com/problems/3sum/">🤔 세 수의 합</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
@@ -146,7 +146,7 @@
 
 
   <tr>
-    <td rowspan="6" href=""></td>
+    <td rowspan="7" href="">연결리스트</td>
     <td><a href="">배열 파티션1</a></td>
       <td>
         <a href="">풀이1</a>, 
@@ -158,6 +158,7 @@
         <br/><a href="">Notes</a>
       </td>
   </tr>
+  
   <tr>
     <td><a href="">배열 파티션1</a></td>
       <td>
@@ -170,6 +171,59 @@
         <br/><a href="">Notes</a>
       </td>
   </tr>
+
+  <tr>
+    <td><a href="">배열 파티션1</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href="">배열 파티션1</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href="">배열 파티션1</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href="">배열 파티션1</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
   <tr>
     <td><a href="">배열 파티션1</a></td>
       <td>

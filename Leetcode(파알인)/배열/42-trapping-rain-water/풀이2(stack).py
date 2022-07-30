@@ -1,9 +1,9 @@
 class Solution:
-    def trap(self, height: List[int]) -> int:
+    def trap(self, height):
         stack = []
         volume = 0
         
-        for i in range(len(height)):
+         for i in range(len(height)):
             # 변곡점을 만나는 경우
             while stack and height[i] > height[stack[-1]]:
                 top = stack.pop()
@@ -19,3 +19,7 @@ class Solution:
             
             stack.append(i)
         return volume
+
+b = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+a = Solution()
+a.trap(b)
