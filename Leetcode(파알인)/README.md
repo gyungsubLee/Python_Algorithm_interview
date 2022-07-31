@@ -163,11 +163,10 @@
     <td><a href="https://leetcode.com/problems/merge-two-sorted-lists/"> 두 정렬 리스트 병합</a></td>
       <td>
         <a href="">풀이1(반복)</a>, 
-        <a href="">🤔풀이2(재귀</a>
+        <a href="">🤔풀이2(재귀)</a>
       </td>
       <td>
         <a href="">Notes</a>
-        <br/><a href="">Notes</a>
       </td>
   </tr>
 
@@ -231,6 +230,89 @@
       <td>
         <a href="">Notes</a>
         <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+
+
+
+
+  <tr>
+    <td rowspan="3" href="">스택</td>
+    <td><a href="">유효한 괄호</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+    <td rowspan="3" href="">큐</td>
+    <td><a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
       </td>
   </tr>
 

@@ -38,7 +38,7 @@ watermelon
 
 <br/> 
 
-### 3. min, max(iterable, key)
+## 3. min, max(iterable, key)
 비교하는 기준(함수, lambda)을 key로 설정 가능하다.
 
 <br/>
