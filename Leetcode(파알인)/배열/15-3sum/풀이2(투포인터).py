@@ -3,7 +3,7 @@ class Solution:
         res = []
         nums.sort()
         for i in range(len(nums)-2):
-            # 중복 숫자 시 건너뛰기
+            # 중복된 겂 건너뛰기
             if i>0 and nums[i] == nums[i-1]:
                 continue
             
