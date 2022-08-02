@@ -8,7 +8,6 @@
 ## ✍️ 파이썬 내장함수들
 <br/>
 
-### ● map()
 
 #### map(function, iterable)
 
@@ -27,15 +26,6 @@ map( 값에 +1 을 더해주는 함수, [1,2,3,4,5]) 
 Reference)
 https://blockdmask.tistory.com/531
 
-<br/>
-<br/>
-
-### ● sort   vs   sorted
-sort: 원본값 수정
-    -> 리스트명.sort()
-
-sorted: 원본값 복사한 새로운 리스트 수정
-    ->리스트명2 = sorted(리스트명)
 
 <br/>
 <br/>
@@ -61,22 +51,3 @@ Reference) https://wikidocs.net/64
 
 <br/>
 <br/>
-
-### ● range()
- -> 반복이 가능한 숫자형 이터러블 객체를 반환해주는 함수이다.
-
-1. 인수가 한 개일 때 - range(MAX)<br>
-    -> 0 <= x < MAX <br>
-         ex) .range(5) -> 0, 1, 2, 3, 4
-
-<br>
-
-2. 인수가 두 개일 때 - range(MIN, MAX)<br>
-   -> MIN <= x < MAX<br>
-        ex) .range(1, 5) -> 1, 2, 3, 4
-
-<br>
-
-3. 인수가 세 개일 때 - range(Min, Max, GAP) <br>
-    -> Min <= x(gap=GAP) < Max<br>
-        ex) .range(0, 10, 2) -> 0, 2, 4, 6, 8

@@ -56,7 +56,8 @@
    <tr>
     <td><a href="https://leetcode.com/problems/most-common-word/">가장 흔한 단어</a></td>
     <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/819-most-common-word/%ED%92%80%EC%9D%B41(%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%BB%B4%ED%94%84%EB%A6%AC%ED%97%A8%EC%85%98%2Cmax).py">풀이1(리스트컴프리헨션, max)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/819-most-common-word/%ED%92%80%EC%9D%B42(%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%BB%B4%ED%94%84%EB%A6%AC%ED%97%A8%EC%85%98%2CCounter).py">풀이2(Couter)</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/819-most-common-word/NOTES.md">Notes</a></td>
+    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/819-most-common-word/NOTES.md">Notes</a>
+    <br><a href="">Counter, most_common</a></td>
   </tr>
 
 
