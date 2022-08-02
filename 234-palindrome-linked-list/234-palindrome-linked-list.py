@@ -5,19 +5,18 @@
 #         self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        rev = None
-        slow = fast = head
-        # 런너를 이용해 역순 연결리스트 구성
-        while fast and fast.next:
-            fast = fast.next.next
-            rev, rev.next, slow = slow, rev, slow.next
+        nums = []
+        
+        while head:
+            nums.append(head.val)
+            head = head.next
             
-        if fast:
-            slow = slow.next
-            
-        # 팰린드롬 여부 확인
-        while rev and rev.val == slow.val:
-            slow, rev = slow.next, rev.next
-            
-        return not rev
+        l, r = 0, len(nums)-1
+        while l <= r:
+            if nums[l] != nums[r]:
+                return False
+            l += 1
+            r -= 1
+        
+        return True
         
