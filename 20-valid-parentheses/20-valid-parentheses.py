@@ -1,16 +1,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        stack = []
-        table = {
-            ")": "(",
-            "]": "[",
-            "}": "{",
-        }
-        for n in s:
-            if n not in table:
-                stack.append(n)
-            elif not stack or table[n] != stack.pop():
-                return False
-        
-        return len(stack) == 0
-                
+        while len(s) > 0:
+            l = len(s)
+            s = s.replace('()','').replace('{}','').replace('[]','')
+            if l==len(s): return False
+        return True
