@@ -70,4 +70,4 @@ for i, h in reversed(list(enumerate(height))):
 <br/><br/>
 
 # ✍️ 풀이2(Stack)
-
+이해하기 어렵다... 이해 후 정리

@@ -38,7 +38,7 @@ Counter({1: 8, 2: 4})
 
 ## 👉 most_common() 함수 - 최빈값 구하기
 ### collections.Counter(a).most_common(n)
--> a의 요소를 세어, 최빈값 n개를 ```[()]```형태로 반환 (리스트에 담긴 튜플 형태)
+-> a의 요소를 세어, 최빈값 n개를 ```[() ...]```형태로 반환 (리스트에 담긴 튜플 형태)
 
 ```python
 import collections
@@ -50,5 +50,14 @@ print(collections.Counter(a).most_common(3))
 [(1, 3), (2, 2), (3, 2)]
 
 print(collections.Counter(a).most_common(1)[0][0])
->>> 1
+>>> 
+1
 ```
+
+<br/>
+
+---
+
+Reference)<br/>
+https://infinitt.tistory.com/183
+

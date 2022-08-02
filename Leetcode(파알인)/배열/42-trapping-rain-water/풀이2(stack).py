@@ -3,7 +3,7 @@ class Solution:
         stack = []
         volume = 0
         
-         for i in range(len(height)):
+        for i in range(len(height)):
             # 변곡점을 만나는 경우
             while stack and height[i] > height[stack[-1]]:
                 top = stack.pop()
