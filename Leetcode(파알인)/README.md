@@ -95,11 +95,10 @@
   </tr>
 
   <tr>
-    <td><a href="https://leetcode.com/problems/3sum/">🤔 세 수의 합</a></td>
+    <td><a href="https://leetcode.com/problems/3sum/"> 세 수의 합</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1(브루트포스)-X</a>, 
+        <a href="">풀이2(투포인터)</a>
       </td>
       <td>
         <a href="">Notes</a>
@@ -124,9 +123,7 @@
   <tr>
     <td><a href="https://leetcode.com/problems/product-of-array-except-self/">자신을 제외한 배열의 곱</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1(left X right)</a>
       </td>
       <td>
         <a href="">Notes</a>
@@ -141,7 +138,6 @@
       </td>
       <td>
         <a href="">Notes</a>
-        <br/><a href="">Notes</a>
       </td>
   </tr>
 
