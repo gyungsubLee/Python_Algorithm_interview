@@ -102,8 +102,8 @@ node=head, prev=None
 
 
 > ▶ 결과<br/>
-> next = {val=5, next=None}
-> node = {val=4, next={val=3, next={val=2, next={val=1, next=None}}}}<br/>
+> next = {val=5, next=None}<br/>
+> node = {val=4, next={val=3, next={val=2, next={val=1, next=None}}}}
 
 
 
