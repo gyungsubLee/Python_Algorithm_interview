@@ -53,8 +53,9 @@ return reverse(head)
 node=head, prev=None
 
 > ▶ 결과<br/>
-> node = {val=1, next=None}<br/>
-> next = {val=2, next={val=3, next={val=4, next={val=5, next=None}}}}
+> next = {val=2, next={val=3, next={val=4, next={val=5, next=None}}}}<br/>
+> node = {val=1, next=None}
+
 
 
 <br/>
@@ -66,12 +67,13 @@ node=head, prev=None
 
 
 >  ● 인자 <br/>
-> node = {val=1, next=None}<br/>
-> prev = {val=2, next={val=3, next={val=4, next={val=5, next=None}}}}}
+> node = {val=2, next={val=3, next={val=4, next={val=5, next=None}}}}}<br/>
+> prev = {val=1, next=None}
 
 > ▶ 결과<br/>
-> node = {val=2, next={val=1, next=None}}<br/>
-> next = {val=3, next={val=4, next={val=5, next=None}}}
+> next = {val=3, next={val=4, next={val=5, next=None}}}<br/>
+> node = {val=2, next={val=1, next=None}}
+
 
 <br/>
 
@@ -80,12 +82,13 @@ node=head, prev=None
 <img src="../../../이미지/역순연결리스트/4.png" width=60% />
 
 >  ● 인자 <br/>
-> node = {val=2, next={val=1, next=None}}<br/>
-> prev = {val=3, next={val=4, next={val=5, next=None}}}
+> node = {val=3, next={val=4, next={val=5, next=None}}}<br/>
+> prev = {val=2, next={val=1, next=None}}
 
 > ▶ 결과<br/>
-> node = {val=3, next={val=2, next={val=1, next=None}}}<br/>
-> next = {val=4, next={val=5, next=None}}
+> next = {val=4, next={val=5, next=None}}<br/>
+> node = {val=3, next={val=2, next={val=1, next=None}}}
+
 
 <br/>
 
@@ -94,12 +97,14 @@ node=head, prev=None
 <img src="../../../이미지/역순연결리스트/5.png" width=60% />
 
 >  ● 인자 <br/>
-> node = {val=3, next={val=2, next={val=1, next=None}}}<br/>
-> prev = {val=4, next={val=5, next=None}}
+> node = {val=4, next={val=5, next=None}}<br/>
+> prev = {val=3, next={val=2, next={val=1, next=None}}}
+
 
 > ▶ 결과<br/>
-> node = {val=4, next={val=3, next={val=2, next={val=1, next=None}}}}<br/>
 > next = {val=5, next=None}
+> node = {val=4, next={val=3, next={val=2, next={val=1, next=None}}}}<br/>
+
 
 
 <br/>
@@ -109,8 +114,8 @@ node=head, prev=None
 <img src="../../../이미지/역순연결리스트/6.png" width=60% />
 
 >  ● 인자 <br/>
-> node = {val=4, next={val=3, next={val=2, next={val=1, next=None}}}}<br/>
-> prev = {val=5, next=None}
+> node = {val=5, next=None}<br/>
+> prev = {val=4, next={val=3, next={val=2, next={val=1, next=None}}}}
 
 
 > ▶ 결과<br/>
