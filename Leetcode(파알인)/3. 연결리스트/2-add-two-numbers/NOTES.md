@@ -71,4 +71,50 @@ def reverseList(self, head: ListNode)->ListNode:
 <br/><br/>
 
 # ✍️ 풀이2(전가산기)
-아직 이해 X
+2개의 변수를 통해 각 연결리스트 value의 합 과 자릿수를 할당하고 계산하여 풀이 (전가산기 유사)
+
+<br/>
+
+### 1. Initialize
+
+```python
+node=head=ListNode(0)
+```
+
+위와 같이 dummy 데이터를 만들어 뒤에 붙인 후
+
+```python
+return node.next
+```
+dummy 데이터 다음(.next), 실제 데이터 부분만 추출한다.
+
+
+### 2. 각 Node의 value 더하고 node 넘기기
+
+```python
+carry=0
+while l1 or l2 or carry:
+    sum=0
+    # 두 입력값의 합 계산
+    if l1:
+        sum += l1.val
+        l1 = l1.next
+    if l2:
+        sum += l2.val
+        l2 = l2.next
+```
+
+### 3. divmod()를 통해 자릿수(몫), 값(나머지) 계산
+
+```python
+carry, val = divmod(sum + carry, 10)
+```
+
+### 4. Node의 value 넣고 넘기기
+
+```python
+head.next = ListNode(val)
+head = head.next 
+```
+
+
