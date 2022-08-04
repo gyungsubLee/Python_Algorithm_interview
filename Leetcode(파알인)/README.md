@@ -179,7 +179,33 @@
   </tr>
 
   <tr>
-    <td><a href="">두 수의 덧셈</a></td>
+    <td><a href="https://leetcode.com/problems/add-two-numbers/">두 수의 덧셈</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href="https://leetcode.com/problems/swap-nodes-in-pairs/">페어의 노드 스왑</a></td>
+      <td>
+        <a href="">풀이1</a>, 
+        <a href="">풀이2</a>, 
+        <a href="">풀이3</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+        <br/><a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href="https://leetcode.com/problems/odd-even-linked-list/">홀짝 연결리스트</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
@@ -204,31 +230,8 @@
       </td>
   </tr>
 
-  <tr>
-    <td><a href="">배열 파티션1</a></td>
-      <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
-      </td>
-      <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
-      </td>
-  </tr>
 
-  <tr>
-    <td><a href="">배열 파티션1</a></td>
-      <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
-      </td>
-      <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
-      </td>
-  </tr>
+
 
 
 
