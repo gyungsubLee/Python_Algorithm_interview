@@ -19,7 +19,7 @@ stack = []
 
 아래와 같이 for문을 통해 각 요소의 index를 stack에 저장하고 stack에 저장된 값과 현재 값을 비교하여 현재 값이 더 큰 경우 index의 차 만큼 answer에 업데이트 한다. 
 
-while문을 통해 stack and cur > T[stack[-1]]이 만족하는 경우 계속해서 update하도록 한다.
+```while문```을 통해 ```stack and cur > T[stack[-1]]```이 만족하는 경우 계속해서 update하도록 한다.
 
 ```python
 for i, cur in enumerate(T):      
