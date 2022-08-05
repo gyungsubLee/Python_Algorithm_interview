@@ -16,7 +16,7 @@ print(ascii_values)
 >>> [104, 101, 108, 108, 111]
 ```
 
-<br/><br/>
+<br/>
 
 ## 👉 List-for문으로 축약
 
@@ -44,3 +44,11 @@ def to_ascii(text):
 print(to_ascii('hello'))
 >>> [104, 101, 108, 108, 111]
 ```
+
+<br/> 
+
+----
+
+Reference)<br/> 
+https://goez.tistory.com/12<br/>
+https://www.delftstack.com/ko/howto/python/convert-string-to-ascii-python/
