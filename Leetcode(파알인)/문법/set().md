@@ -9,7 +9,7 @@
 ```set 자료형```은 순서가 없기(unordered) 때문에 
 <span style="color:tomato">인덱싱으로 값을 얻을 수 없다. </span>
 
-만약 set 자료형에 저장된 값을 인덱싱으로 접근하려면 다음과 같이 <span style="color:tomato"> 리스트나 튜플로 변환</span>해야함.
+<p>만약 set 자료형에 저장된 값을 인덱싱으로 접근하려면 다음과 같이 <span style="color:tomato"> 리스트나 튜플로 변환</span>해야함.</p>
 
 
 
