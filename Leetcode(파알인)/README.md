@@ -281,11 +281,9 @@
 
   <tr>
     <td rowspan="3" href="">큐</td>
-    <td><a href=""></a></td>
+    <td><a href="https://leetcode.com/problems/implement-stack-using-queues/submissions/">큐를 이용한 스택 구현</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1(deque)</a>
       </td>
       <td>
         <a href="">Notes</a>
@@ -293,11 +291,9 @@
   </tr>
 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://leetcode.com/problems/implement-queue-using-stacks/">스택을 이용한 큐 구현</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1(Array:2)</a>
       </td>
       <td>
         <a href="">Notes</a>
@@ -305,11 +301,10 @@
   </tr>
 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://leetcode.com/problems/design-circular-queue/">원형 큐 디자인</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="">풀이1(Array)</a>, 
+        <a href="">풀이2(LinkedList)</a>
       </td>
       <td>
         <a href="">Notes</a>
@@ -317,6 +312,90 @@
   </tr>
 
   
+<tr>
+    <td rowspan="3" href="">큐</td>
+      <td>
+        <a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td>
+        <a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td>
+        <a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+
+
+  <tr>
+    <td rowspan="3" href="">큐</td>
+      <td>
+        <a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td>
+        <a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td>
+        <a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+
+
+  <tr>
+    <td>
+        <a href=""></a></td>
+      <td>
+        <a href="">풀이1</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+
 
 </table>
 
