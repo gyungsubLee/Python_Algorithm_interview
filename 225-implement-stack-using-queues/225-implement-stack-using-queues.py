@@ -18,9 +18,7 @@ class MyStack:
         
 
     def empty(self) -> bool:
-        if len(self.q) != 0:
-            return False
-        return True
+        return len(self.q) == 0
         
 
 
