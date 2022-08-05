@@ -32,7 +32,7 @@ return head
 <br/>
 
 ### 1. odd(홀수), even(짝수) 초기화?
-<img src="../../../이미지/홀짝연결리스트/6.png" width=60% />
+<img src="../../../이미지/홀짝연결리스트/2.png" width=60% />
 
 <br/>
 
@@ -52,7 +52,7 @@ even_head = head.next #홀수와 연결할 짝수 head
 
 ### 2. while 1
 
-<img src="../../../이미지/홀짝연결리스트/2.png" width=60% />
+<img src="../../../이미지/홀짝연결리스트/3.png" width=60% />
 
 <br/>
 
@@ -69,7 +69,7 @@ while even and even.next:
 
 ### 3. whil 2
 
-<img src="../../../이미지/홀짝연결리스트/3.png" width=60% />
+<img src="../../../이미지/홀짝연결리스트/4.png" width=60% />
 
 <br/>
 
@@ -86,7 +86,7 @@ while even and even.next:
 
 ### 4. 홀수(odd) 연결리스트, 짝수(even) 연결리스트
 
-<img src="../../../이미지/홀짝연결리스트/4.png" width=60% />
+<img src="../../../이미지/홀짝연결리스트/5.png" width=60% />
 
 
 <br/>
@@ -95,7 +95,7 @@ while even and even.next:
 
 ### 5. 홀수, 짝수 연결리스트 연결
 
-<img src="../../../이미지/홀짝연결리스트/5.png" width=60% />
+<img src="../../../이미지/홀짝연결리스트/6.png" width=60% />
 
 <br/>
 
