@@ -239,7 +239,7 @@
 
   <tr>
     <td rowspan="3" href="">스택</td>
-    <td><a href="">유효한 괄호</a></td>
+    <td><a href="https://leetcode.com/problems/valid-parentheses/">유효한 괄호</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
@@ -251,7 +251,7 @@
   </tr>
 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://leetcode.com/problems/remove-duplicate-letters/submissions/">중복문자제거</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
@@ -263,7 +263,7 @@
   </tr>
 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://leetcode.com/problems/daily-temperatures/">일일온도</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
