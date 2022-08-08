@@ -313,9 +313,9 @@
 
   
 <tr>
-    <td rowspan="3" href="">큐</td>
+    <td rowspan="2" href="">데크(deque)</td>
       <td>
-        <a href=""></a></td>
+        <a href="https://leetcode.com/problems/design-circular-deque/">원형 데크 디자인</a></td>
       <td>
         <a href="">풀이1</a>
       </td>
