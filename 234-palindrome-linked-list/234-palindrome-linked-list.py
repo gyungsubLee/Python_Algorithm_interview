@@ -6,19 +6,29 @@
 from collections import deque
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        if not head:
-            return False
+        fast = head
+        slow = head
         
-        q:List = deque()
-        node = head
-        while node:
-            q.append(node.val)
-            node=node.next
-        
-        while len(q) > 1:
-            if q.popleft() != q.pop():
-                return False
+        # find middle (slow)
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
             
+        # reverse second half
+        prev = None
+        while slow:
+            tmp = slow.next
+            slow.next = prev
+            prev = slow
+            slow = tmp
+            
+        # check palindrome
+        left, right = head, prev
+        while right:
+            if left.val != right.val:
+                return False
+            left = left.next
+            right = right.next
         return True
         
         
