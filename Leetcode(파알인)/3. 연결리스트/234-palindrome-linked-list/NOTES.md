@@ -1,6 +1,11 @@
 연결리스트로 구성된 펠린드롬을 판별하는 문제
 
 # ✍️ 풀이1(배열)
+자료형 = 배열([])<br>
+시간복잡도: O(n²) [ pop(0): O(n) * while: O(n) ]<br/>
+공간복잡도: ?
+
+
 우선 연결리스트로 구성된 데이터를 차례대로 배열에 넣는다.
 
 ```python
@@ -36,7 +41,9 @@ while len(q) > 1:
 <br/><br/>
 
 # ✍️ 풀이2(Deque)
-자료형을 deque로 변경한다. 
+자료형 = deque<br/>
+시간복잡도: O(n) [ while: O(n) ]<br/>
+공간복잡도: O(n²) ?
 
 ```python
 from collections import deque
@@ -60,7 +67,9 @@ return True
 <br/><br/>
 
 # ✍️ 풀이3(투포인터)
-투포인터를 이용한 O(n) 풀이
+투포인터: l, r = 0, len(q)-1 <br/>
+시간복잡도: O(n) [ while: O(n) ]<br/>
+공간복잡도: O(n)
 
 ```python
 l, r = 0, len(nums)-1

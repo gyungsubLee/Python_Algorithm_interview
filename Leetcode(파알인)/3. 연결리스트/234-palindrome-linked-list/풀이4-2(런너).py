@@ -14,14 +14,15 @@ class Solution:
             fast = fast.next.next
             slow = slow.next
             
-        # reverse second half
+        # reverse second half  -> 이해가 안된다...
         prev = None
         while slow:
             tmp = slow.next
             slow.next = prev
             prev = slow
             slow = tmp
-            
+        
+
         # check palindrome
         left, right = head, prev
         while right:
