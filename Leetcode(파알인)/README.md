@@ -218,7 +218,7 @@
   </tr>
 
   <tr>
-    <td><a href="">배열 파티션1</a></td>
+    <td><a href="https://leetcode.com/problems/reverse-linked-list-ii/">역순 연결리스트II</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
