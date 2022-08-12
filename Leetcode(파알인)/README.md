@@ -326,18 +326,7 @@
 
   <tr>
     <td>
-        <a href=""></a></td>
-      <td>
-        <a href="">풀이1</a>
-      </td>
-      <td>
-        <a href="">Notes</a>
-      </td>
-  </tr>
-
-  <tr>
-    <td>
-        <a href=""></a></td>
+        <a href="https://leetcode.com/problems/merge-k-sorted-lists/">k개 정렬 리스트 병합</a></td>
       <td>
         <a href="">풀이1</a>
       </td>
@@ -385,6 +374,7 @@
 
 
   <tr>
+    <td rowspan="3" href="">큐</td>
     <td>
         <a href=""></a></td>
       <td>
