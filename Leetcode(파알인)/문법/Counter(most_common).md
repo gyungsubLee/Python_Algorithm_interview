@@ -7,7 +7,7 @@
 ```python
 import collections
 
-b = [1,3,4,2,3,5,2,3,9]
+b = [1,3,4,2,3,5,2,3,4,1,3,1]
 print(collections.Counter(a))
 
 >>>

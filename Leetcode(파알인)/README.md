@@ -338,9 +338,20 @@
 
 
   <tr>
-    <td rowspan="3" href="">큐</td>
+    <td rowspan="4" href="https://velog.io/@dltjq2323/%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94Hash-table">해시테이블</td>
       <td>
-        <a href=""></a></td>
+        <a href="https://leetcode.com/problems/design-hashmap/submissions/">해시맵 디자인</a></td>
+      <td>
+        <a href="">풀이1(연결리스트)</a>
+      </td>
+      <td>
+        <a href="">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td>
+        <a href="https://leetcode.com/problems/jewels-and-stones/">보석과 돌</a></td>
       <td>
         <a href="">풀이1</a>
       </td>
@@ -351,7 +362,7 @@
 
   <tr>
     <td>
-        <a href=""></a></td>
+        <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">중복 문자 없는 가장 긴 부분 문자열</a></td>
       <td>
         <a href="">풀이1</a>
       </td>
@@ -362,7 +373,7 @@
 
   <tr>
     <td>
-        <a href=""></a></td>
+        <a href="">상위 K 빈도 요소</a></td>
       <td>
         <a href="">풀이1</a>
       </td>
