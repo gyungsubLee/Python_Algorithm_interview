@@ -1,22 +1,20 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        if not grid:
-            return 0
         
-        count = 0
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j] == '1':
-                    self.dfs(grid, i, j)
-                    count += 1
-        return count
+        nr, nc, num_islands = len(grid), len(grid[0]), 0
         
-    def dfs(self, grid:List[List[str]], i:str, j:str):
-        if i<0 or j<0 or i>=len(grid) or j>=len(grid[0]) or grid[i][j] != '1':
-            return
-
-        grid[i][j] = '#'
-        self.dfs(grid, i+1, j)
-        self.dfs(grid, i-1, j)
-        self.dfs(grid, i, j+1)
-        self.dfs(grid, i, j-1)
+        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+        
+        def dfs(r, c):
+            if 0 <= r < nr and 0 <= c < nc and grid[r][c] == "1":
+                grid[r][c] = "0"
+                for d_r, d_c in directions:
+                    dfs(r + d_r, c + d_c)
+                
+        for r in range(nr):
+            for c in range(nc):
+                if grid[r][c] == "1":
+                    num_islands += 1
+                    dfs(r, c)
+        
+        return num_islands
