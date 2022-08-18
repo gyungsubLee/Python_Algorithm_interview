@@ -411,7 +411,7 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/permutations/">순열</a></td>
     <td>
       <a href="">풀이1</a>
     </td>
@@ -423,7 +423,7 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/combinations/submissions/">조합</a></td>
     <td>
       <a href="">풀이1</a>
     </td>
