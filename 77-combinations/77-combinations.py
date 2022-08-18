@@ -1,6 +1,9 @@
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res = []
+        if n == k:
+            res.append([i for i in range(1, n+1)])
+            return res 
         self.dfs(range(1,n+1), k, [], res)
         return res
         
