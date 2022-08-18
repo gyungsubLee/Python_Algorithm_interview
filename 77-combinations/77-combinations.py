@@ -1,16 +1,18 @@
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res = []
-        if n == k:
-            res.append([i for i in range(1, n+1)])
-            return res 
-        self.dfs(range(1,n+1), k, [], res)
-        return res
         
-    def dfs(self, nums, k, path, res):
+        self.dfs([], 1, k, n, res)
+        
+        return res
+    
+    def dfs(self, elements, start:int, k:int, n:int, res:List):
         if k == 0:
-            res.append(path)
+            res.append(elements[:])
             return
         
-        for i in range(len(nums)):
-            self.dfs(nums[i+1:], k-1, path+[nums[i]], res)
+        for i in range(start, n+1):
+            elements.append(i)
+            self.dfs(elements, i+1, k-1, n, res)
+            elements.pop()
+        
