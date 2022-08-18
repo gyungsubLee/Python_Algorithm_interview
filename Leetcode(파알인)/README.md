@@ -385,9 +385,9 @@
 
 
   <tr>
-    <td rowspan="3" href="">큐</td>
+    <td rowspan="7" href="">그래프(BFS, DFS)</td>
     <td>
-        <a href=""></a></td>
+        <a href="https://leetcode.com/problems/number-of-islands/submissions/">섬의 개수 </a></td>
       <td>
         <a href="">풀이1</a>
       </td>
@@ -397,6 +397,141 @@
   </tr>
 
 
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">전화번호 문자 조합</a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+
+
+
+  <tr>
+    <td rowspan="5" href=""></td>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+  
 
 </table>
 
