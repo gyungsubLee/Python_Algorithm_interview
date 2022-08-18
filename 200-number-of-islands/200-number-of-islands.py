@@ -1,20 +1,24 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        
-        nr, nc, num_islands = len(grid), len(grid[0]), 0
-        
-        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
-        
-        def dfs(r, c):
-            if 0 <= r < nr and 0 <= c < nc and grid[r][c] == "1":
-                grid[r][c] = "0"
-                for d_r, d_c in directions:
-                    dfs(r + d_r, c + d_c)
-                
-        for r in range(nr):
-            for c in range(nc):
-                if grid[r][c] == "1":
-                    num_islands += 1
-                    dfs(r, c)
-        
-        return num_islands
+        dx = [0, 0, 1, -1]
+        dy = [1, -1, 0, 0]
+        rows, cols = len(grid), len(grid[0])
+        cnt = 0
+
+        for row in range(rows):
+            for col in range(cols):
+                if grid[row][col] != '1':
+                    continue
+                cnt += 1
+                stack = [(row, col)]
+
+                while stack:
+                    x, y = stack.pop()
+                    grid[x][y] = '0'
+                    for i in range(4):
+                        nx = x + dx[i]
+                        ny = y + dy[i]
+                        if nx < 0 or nx >= rows or ny < 0 or ny >= cols or grid[nx][ny] != '1':
+                            continue
+                        stack.append((nx, ny))
+        return cnt
