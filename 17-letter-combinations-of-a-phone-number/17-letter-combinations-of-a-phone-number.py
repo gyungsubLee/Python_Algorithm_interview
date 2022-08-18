@@ -1,23 +1,21 @@
 class Solution(object):
-    def letterCombinations(self, digits):
-        """
-        :type digits: str
-        :rtype: List[str]
-        """
+    def letterCombinations(self, digits:str)->List[str]:
+        # dfs - 재귀
+        def dfs(index:int, path:str):
+            if len(path) == len(digits):
+                res.append(path)
+                return
+            words = dic[digits[index]]
+            for word in words:
+                dfs(index+1, path+word)
+                
+        # 예외처리
+        if not digits:
+            return []
+        
         dic = { "2": "abc", "3": "def", "4":"ghi", "5":"jkl", "6":"mno", "7":"pqrs", "8":"tuv", "9":"wxyz"}
         
-        res=[]
-        if len(digits) ==0:
-            return res
-            
-        self.dfs(digits, dic, res, 0, '')
-        
+        res = []
+        dfs(0, '')
         return res
     
-    def dfs(self, nums, dic, res, index, path):
-        if index == len(nums):
-            res.append(path)
-            return
-        string1 =dic[nums[index]]
-        for i in string1:
-            self.dfs(nums, dic,  res, index+1,  path + i)
