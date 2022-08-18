@@ -4,18 +4,21 @@ class Solution(object):
         if not digits:
             return []
         
-        # dfs - 재귀
-        def dfs(index:int, path:str):
-            if len(path) == len(digits):
-                res.append(path)
-                return
-            words = dic[digits[index]]
-            for word in words:
-                dfs(index+1, path+word)
-                
+        # stack        
         dic = { "2": "abc", "3": "def", "4":"ghi", "5":"jkl", "6":"mno", "7":"pqrs", "8":"tuv", "9":"wxyz"}
         
         res = []
-        dfs(0, '')
+        stack = [(0, '')]
+        while stack:
+            i, p = stack.pop()
+            if i == len(digits):
+                res.append(p)
+            else:
+                words = dic[digits[i]]
+                for word in words:
+                    stack.append((i+1, p + word))
+                    
         return res
+                    
+            
     
