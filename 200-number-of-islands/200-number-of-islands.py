@@ -1,28 +1,32 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        # stack
-        dx = [0, 0, 1, -1]
-        dy = [1, -1, 0, 0]
-        rows, cols = len(grid), len(grid[0])
-        cnt = 0
-
-        for row in range(rows):
-            for col in range(cols):
-                if grid[row][col] != '1':
-                    continue
-                
-                cnt += 1
-                stack = [(row, col)]
-                
-                while stack:
-                    x, y = stack.pop()
-                    grid[x][y] = '0'
-                    for i in range(4):
-                        nx = x + dx[i]
-                        ny = y + dy[i]
-                        if nx < 0 or nx >= rows or ny < 0 or ny >= cols or grid[nx][ny] != '1':
-                            continue
-                        stack.append((nx, ny))
-                        
+        def dfs(row, col):
+            if 0<=row<rows and 0<=col<cols and grid[row][col] == '1':
+                grid[row][col] = '#'
+                dfs(row+1, col)
+                dfs(row-1, col)
+                dfs(row, col+1)
+                dfs(row, col-1)
+            
+        if not grid:
+            return 0
+        
+        rows, cols, cnt = len(grid), len(grid[0]), 0
+        for r in range(rows):
+            for c in range(cols):
+                if grid[r][c] == '1':
+                    dfs(r, c)
+                    cnt += 1
         return cnt
+    
+    
+        
+        
+
+
+
+            
+            
+        
+        
             
