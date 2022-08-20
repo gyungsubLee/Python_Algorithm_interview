@@ -430,7 +430,10 @@
     <td>
       <a href="https://leetcode.com/problems/combinations/submissions/">조합</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="">풀이1-1(DFS-재귀)</a>, 
+      <a href="">풀이1-2(DFS-재귀)</a>, 
+      <a href="">풀이1-3(method-func)</a>, 
+      <a href="">풀이2(DFS-Stack)</a>
     </td>
     <td>
       <a href="">Notes</a>
@@ -439,21 +442,10 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/combination-sum/submissions/">조합의 합</a></td>
     <td>
-      <a href="">풀이1</a>
-    </td>
-    <td>
-      <a href="">Notes</a>
-    </td>
-  </tr>
-
-
-  <tr>
-    <td>
-      <a href=""></a></td>
-    <td>
-      <a href="">풀이1</a>
+      <a href="">풀이1(DFS-재귀)</a>, 
+      <a href="">풀이1(DFS-Stack)</a>
     </td>
     <td>
       <a href="">Notes</a>
@@ -463,7 +455,20 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/subsets/">부분집합</a></td>
+    <td>
+      <a href="">풀이1(DFS-재귀)</a>, 
+      <a href="">풀이1(DFS-Stack)</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href="">일정 재구성</a></td>
     <td>
       <a href="">풀이1</a>
     </td>
