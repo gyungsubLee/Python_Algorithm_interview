@@ -385,7 +385,7 @@
 
 
   <tr>
-    <td rowspan="7" href="">그래프(BFS, DFS)</td>
+    <td rowspan="8" href="">그래프(BFS, DFS)</td>
     <td>
         <a href="https://leetcode.com/problems/number-of-islands/submissions/">섬의 개수 </a></td>
       <td>
@@ -468,7 +468,20 @@
 
   <tr>
     <td>
-      <a href="">일정 재구성</a></td>
+      <a href="https://leetcode.com/problems/reconstruct-itinerary/">🤔 일정 재구성</a></td>
+    <td>
+      <a href="">풀이1-1(DFS-재귀)</a>,
+      <a href="">풀이1-2(최적화-reverse)</a>, 
+      <a href="">풀이1(DFS-Stack)</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/course-schedule/">코스 스케줄</a></td>
     <td>
       <a href="">풀이1</a>
     </td>
