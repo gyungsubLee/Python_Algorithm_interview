@@ -389,7 +389,9 @@
     <td>
         <a href="https://leetcode.com/problems/number-of-islands/submissions/">섬의 개수 </a></td>
       <td>
-        <a href="">풀이1</a>
+        <a href="">풀이1-1(DFS-재귀)</a>, 
+        <a href="">풀이1-2(for문)</a>, 
+        <a href="">풀이2(DFS-stack)</a>
       </td>
       <td>
         <a href="">Notes</a>
@@ -401,7 +403,9 @@
     <td>
       <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">전화번호 문자 조합</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="">풀이1(DFS-stack)</a>, 
+        <a href="">풀이2-1(DFS-재귀)</a>, 
+        <a href="">풀이2-2(함수합침)</a>
     </td>
     <td>
       <a href="">Notes</a>
@@ -413,7 +417,8 @@
     <td>
       <a href="https://leetcode.com/problems/permutations/">순열</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="">풀이1(DFS-재귀)</a>, 
+      <a href="">풀이2(DFS-stack)</a>
     </td>
     <td>
       <a href="">Notes</a>
