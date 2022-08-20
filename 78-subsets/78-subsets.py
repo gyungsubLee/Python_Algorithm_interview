@@ -1,11 +1,11 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        res=[]
-        stack=[(0, [])]
-        while stack:
-            start, path = stack.pop()
+        def dfs(start, path):
             res.append(path)
             for i in range(start, len(nums)):
-                stack.append((i+1, path+[nums[i]]))
+                dfs(i+1, path+[nums[i]])
+
+        res=[]
+        dfs(0, [])
         return res
         
