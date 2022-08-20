@@ -7,7 +7,6 @@ class Solution:
     def dfs(self, nums, k, path, res):
         if k == 0:
             res.append(path)
-            return res
         
         if len(nums) >= k:
             for i in range(len(nums)):

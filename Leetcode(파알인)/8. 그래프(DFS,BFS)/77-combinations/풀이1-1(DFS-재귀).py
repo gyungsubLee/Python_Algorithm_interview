@@ -13,6 +13,9 @@ class Solution:
         
         for i in range(start, n+1):
             elements.append(i)
-            self.dfs(elements, i+1, k-1, n, res)
+            # i 대신 start를 잘못써서 중복인 경우까지 다 나옴
+            # -> [[1,2],[1,3],[1,4],[2,2],[2,3],[2,4],[3,2],[3,3],[3,4],[4,2],[4,3],[4,4]]
+            # => 생각하면서 하자...
+            self.dfs(elements, i+1, k-1, n, res) 
             elements.pop()
         
