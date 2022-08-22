@@ -481,7 +481,7 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/course-schedule/">코스 스케줄</a></td>
+      <a href="https://leetcode.com/problems/course-schedule/">🤔 코스 스케줄</a></td>
     <td>
       <a href="">풀이1</a>
     </td>
