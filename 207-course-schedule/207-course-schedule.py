@@ -1,21 +1,40 @@
+from collections import defaultdict
+
 class Solution:
-    def canFinish(self, numCourses, prerequisites):
-        graph = [[] for _ in range(numCourses)]
-        visit = [0 for _ in range(numCourses)]
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        graph = defaultdict(list)
+        # 그래프 구성
         for x, y in prerequisites:
             graph[x].append(y)
+        
+        traced = set()
+        visited = set()
+        
         def dfs(i):
-            if visit[i] == -1:
+            # 순환구조 -> False
+            if i in traced:
                 return False
-            if visit[i] == 1:
+            
+            # 이미 방문했던 노드
+            if i in visited:
                 return True
-            visit[i] = -1
-            for j in graph[i]:
-                if not dfs(j):
+            
+            traced.add(i)
+            for y in graph[i]:
+                if not dfs(y): 
                     return False
-            visit[i] = 1
+            
+            # 탐색 종료 후 삭제
+            traced.remove(i)
+            # 탐색 종료 후 방문 노드 추가
+            visited.add(i)
+            
             return True
-        for i in range(numCourses):
-            if not dfs(i):
+            
+        # 순환 구조 판별
+        for x in list(graph):
+            if not dfs(x):
                 return False
+        
         return True
+            
