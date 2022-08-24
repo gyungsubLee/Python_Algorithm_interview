@@ -1,15 +1,14 @@
-from collections import defaultdict
-from heapq import heappop, heappush
-
+import collections
 class Solution:
     def networkDelayTime(self, times, N, K):
-        q, t, adj = [(0, K)], {}, collections.defaultdict(list)
+        t, graph, q = [0] + [float("inf")] * N, collections.defaultdict(list), collections.deque([(0, K)])
         for u, v, w in times:
-            adj[u].append((v, w))
+            graph[u].append((v, w))
         while q:
-            time, node = heapq.heappop(q)
-            if node not in t:
+            time, node = q.popleft()
+            if time < t[node]:
                 t[node] = time
-                for v, w in adj[node]:
-                    heapq.heappush(q, (time + w, v))
-        return max(t.values()) if len(t) == N else -1
+                for v, w in graph[node]:
+                    q.append((time + w, v))
+        mx = max(t)
+        return mx if mx < float("inf") else -1
