@@ -495,6 +495,68 @@
 
 
   <tr>
+    <td rowspan="2" href="">최단 경로 문제</td>
+    <td>
+      <a href="https://leetcode.com/problems/network-delay-time/submissions/"></a>🤔 네트워크 딜레이 타임</td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/"></a>🤔 K 경유지 내 가장 저렴한 항공권</td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+  
+
+  <tr>
     <td rowspan="5" href=""></td>
     <td>
       <a href=""></a></td>
@@ -554,7 +616,6 @@
       <a href="">Notes</a>
     </td>
   </tr>
-  
 
 </table>
 
