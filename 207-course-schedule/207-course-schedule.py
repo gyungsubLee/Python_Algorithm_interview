@@ -1,29 +1,21 @@
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        preMap = { i:[] for i in range(numCourses)}
-        for crs, pre in prerequisites:
-            preMap[crs].append(pre)
-            
-        traced = set()
-        visit = set()
-        def dfs(crs):
-            if crs in traced: return False
-            if crs in visit: return True
-            
-            traced.add(crs)
-            for pre in preMap[crs]:
-                if not dfs(pre): return False
-            traced.remove(crs)
-            visit.add(crs)
-            
+    def canFinish(self, numCourses, prerequisites):
+        graph = [[] for _ in range(numCourses)]
+        visit = [0 for _ in range(numCourses)]
+        for x, y in prerequisites:
+            graph[x].append(y)
+        def dfs(i):
+            if visit[i] == -1:
+                return False
+            if visit[i] == 1:
+                return True
+            visit[i] = -1
+            for j in graph[i]:
+                if not dfs(j):
+                    return False
+            visit[i] = 1
             return True
-        
-        for crs in range(numCourses):
-            if not dfs(crs): return False
+        for i in range(numCourses):
+            if not dfs(i):
+                return False
         return True
-            
-                
-            
-        
-        
-            
