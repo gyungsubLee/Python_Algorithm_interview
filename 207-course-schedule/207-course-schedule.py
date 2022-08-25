@@ -4,17 +4,17 @@ class Solution:
         visit = [0 for _ in range(numCourses)]
         for x, y in prerequisites:
             graph[x].append(y)
-        def dfs(i):
-            if visit[i] == -1:
-                return False
-            if visit[i] == 1:
-                return True
-            visit[i] = -1
-            for j in graph[i]:
-                if not dfs(j):
+            
+        def dfs(n):
+            if visit[n] == -1: return False
+            if visit[n] == 1: return True
+            visit[n] = -1
+            for _n in graph[n]:
+                if not dfs(_n):
                     return False
-            visit[i] = 1
+            visit[n] = 1
             return True
+        
         for i in range(numCourses):
             if not dfs(i):
                 return False
