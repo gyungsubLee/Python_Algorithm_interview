@@ -199,3 +199,6 @@ def dfs(i):
     return True
 ```
 
+---
+ Reference)<br/>
+ https://leetcode.com/problems/course-schedule/discuss/58586/Python-20-lines-DFS-solution-sharing-with-explanation
