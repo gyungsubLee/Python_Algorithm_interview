@@ -6,7 +6,7 @@ class Solution:
         while stack:
             start, path = stack.pop()
             res.append(path)
+            # if start >= len(nums): continue 없어도 문제 없음.
             for i in range(start, len(nums)):
                 stack.append((i+1, path+[nums[i]]))
         return res
-        

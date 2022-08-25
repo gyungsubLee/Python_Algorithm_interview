@@ -110,9 +110,92 @@ if not dfs(crs): return False
 
 별거 아닌건데 머리가 이해하기를 거부했다...(왜그런지 모르겠음...)
 
+<br/><br/>
+
+# ✍️ 풀이3 - 가지치기를  이용한 최적화 
+
+<img src="./이미지/반복구간 확인.png" width="60%">
+
+위 그림과 같이 이미 dfs로 순환이 판별된 부분이 다시 반복되어 비용 낭비가 발생한한다. 
+
+따라서 방문 노드를 저장할 새로운 ```set()``` 집합을 만든 후
+이미 방문하여 판별된 노드이면 건너뛰어 비용 낭비를 개선할 수 있다.
+
+```python
+traced = set()
+visit = set() # 방문 노드 저장
+def dfs(crs):
+    if crs in traced: return False
+    if crs in visit: return True # 방문한 노드 시 건너뛰기
+    
+    traced.add(crs)
+    for pre in preMap[crs]:
+        if not dfs(pre): return False
+    traced.remove(crs)
+    visit.add(crs) # 순환 판별 후 저장
+    
+    return True
+```
+
+<br/>
 
 
+또한 [풀이1]과 같이 방문한 노드를 저장하지 않고도 처리 가능하다.
+
+```python
+def dfs(crs):
+    if crs in visitSet:
+        return False
+    if preMap[crs] == []: # 순환이 판별 or 노드 끝 -> return
+        return True
+    
+    visitSet.add(crs)
+    for pre in preMap[crs]:
+        if not dfs(pre): return False
+    visitSet.remove(crs)
+    preMap[crs] = [] # 순환 판별된 노드 비우기 
+    return True
+```
+
+위 코드와 같이 이미 판별된 node를 비워, 쓸데없는 연산 낭비를 방지한다. 
+
+> 🤔  위 방법보다 set으로 처리하는 방식이 더 빠르게 처리 되었으나 해당 부분이 왜 그런지 이해가 가지 않았다.<br/>
+-> 추후 이해되면 정리
 
 
+<br/><br/>
 
+# ✍️ 풀이2 - leetcode
+[leetcode](https://leetcode.com/problems/course-schedule/discuss/58586/Python-20-lines-DFS-solution-sharing-with-explanation)에서 참조한 코드로 정리한 3가지 풀이 중 가장 빠른 풀이이다.
+
+>There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1
+
+해당 조건을 통해 graph를 배열로 설정하여 index로 node 구별하는 방법이 신기했다. (난 왜 이런 생각이 안들었나 모르겠네...) 
+```python
+graph = [[] for _ in range(numCourses)]
+```
+
+또한 index로 node를 구별하여 아래와 같은 코드로 순환과 방문 판별을 간단하게 처리하는 부분이 굉장히 신박했다.
+```python
+visit = [0 for _ in range(numCourses)]
+```
+
+<br/>
+
+>순환 판별: -1<br/>
+방문 판별: 1
+
+```python 
+def dfs(i):
+    if visit[i] == -1:
+        return False
+    if visit[i] == 1:
+        return True
+    visit[i] = -1
+    for j in graph[i]:
+        if not dfs(j):
+            return False
+    visit[i] = 1
+    return True
+```
 
