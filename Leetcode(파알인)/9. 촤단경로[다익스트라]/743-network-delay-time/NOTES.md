@@ -35,7 +35,13 @@ while minheap:
 return max(t.values()) if len(t) == N else -1
 ```
 
+## 🤔 
+> Tast case) <br/>
+> times=[[4,1,1],[4,2,1],[1,3,1],[3,2,4]] 의 경우 최대 시간인 6이 정답인가? 
 
+<img src="./이미지/3.png" width="60%">
+
+->  모든 노드에 도달하는 경우의 시간을 구하는 것 이다[문제의 조건을 잘못 이해함]
 
 
 <br/>
