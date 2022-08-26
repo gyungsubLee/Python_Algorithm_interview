@@ -7,6 +7,9 @@
 
 <br/>
 
+## TastCase)
+> times=[[1,3,1],[3,4,1],[4,2,1],[1,2,4]], N=4, k=1
+
 graph 인접리스트로 구성
 
 ```python
@@ -15,9 +18,11 @@ for u, v, w in times:
     graph[u].append((v, w))
 ```
 
+<br/>
+
 <img src="./이미지/2.png" width="60%">
 
-아래의 코드는 위 그림과 같이 진행되어 정답이 도출됨/
+ 위 그림과 같이 진행되어 정답이 도출
 
 ```python
 minheap, t = [(0, K)], {}

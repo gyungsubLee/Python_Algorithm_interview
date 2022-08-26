@@ -1,22 +1,44 @@
+# 풀이 1-1 [ graph: tuple ]
+class Solution:
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        graph = collections.defaultdict(list)
+        for fr, to, pr in flights:
+            graph[fr].append((to, pr))
+        vis = [0]*n
+        q = [(0, src, k+1)]
+        while q:
+            price, node, k = heapq.heappop(q)
+            if node == dst:
+                return price
+            if vis[node] >= k:
+                continue
+            vis[node] = k
+            for _node, d_pr in graph[node]:
+                heapq.heappush(q, (price+d_pr, _node, k-1))
+        return -1
+ 
+
+# 풀이 1-2 [ graph: dict]
 import collections, heapq
 from typing import List
 
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         graph = collections.defaultdict(dict)
-        for s, d, w in flights:
-            graph[s][d] = w
-        pq = [(0, src, k+1)]
-        vis = [0] * n
-        while pq:
-            w, x, k = heapq.heappop(pq)
-            if x == dst:
-                return w
-            if vis[x] >= k:
+        for fr, to, pr in flights:
+            graph[fr][to] = pr
+        vis = [0]*n
+        
+        q = [(0, src, k+1)]
+        while q:
+            price, node, k = heapq.heappop(q)
+            if node == dst:
+                return price
+            if vis[node] >= k: # 이해 X
                 continue
-            vis[x] = k
-            for y, dw in graph[x].items():
-                heapq.heappush(pq, (w+dw, y, k-1))
+            vis[node] = k
+            for _node, d_pr in graph[node].items():
+                heapq.heappush(q, (price+d_pr, _node, k-1))
         return -1
 
 
