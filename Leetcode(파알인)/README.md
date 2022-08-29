@@ -522,10 +522,10 @@
     <td>
       <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/">이진 트리의 최대 깊이</a></td>
     <td>
-      <a href="./Leetcode(파알인)/10.이진트리/">풀이1(BFS))</a>
+      <a href="./10.이진트리/104-maximum-depth-of-binary-tree/풀이1(BFS).py">풀이1(BFS))</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="/10.이진트리/104-maximum-depth-of-binary-tree/NOTES.md">Notes</a>
     </td>
   </tr>
 
