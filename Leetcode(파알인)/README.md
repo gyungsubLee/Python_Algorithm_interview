@@ -522,10 +522,10 @@
     <td>
       <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/">이진 트리의 최대 깊이</a></td>
     <td>
-      <a href="./10.이진트리/104-maximum-depth-of-binary-tree/풀이1(BFS).py">풀이1(BFS))</a>
+      <a href="./10-이진트리/104-maximum-depth-of-binary-tree/풀이1(BFS).py">풀이1(BFS))</a>
     </td>
     <td>
-      <a href="/10.이진트리/104-maximum-depth-of-binary-tree/NOTES.md">Notes</a>
+      <a href="./10-이진트리/104-maximum-depth-of-binary-tree/NOTES.md">Notes</a>
     </td>
   </tr>
 
@@ -533,9 +533,9 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/diameter-of-binary-tree/">이진 트리의 직경</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="">🤔풀이1(DFS)</a>
     </td>
     <td>
       <a href="">Notes</a>
@@ -545,12 +545,12 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/longest-univalue-path/">가장 긴 동일 값의 경로</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./10-이진트리/687-longest-univalue-path/풀이1(재귀).py">풀이1(DFS-재귀)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./10-이진트리/687-longest-univalue-path/NOTES.md">Notes</a>
     </td>
   </tr>
   
