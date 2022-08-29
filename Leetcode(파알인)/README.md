@@ -497,7 +497,7 @@
   <tr>
     <td rowspan="2" href="">최단 경로 문제</td>
     <td>
-      <a href="https://leetcode.com/problems/network-delay-time/submissions/">🤔 네트워크 딜레이 타임</a></td>
+      <a href="https://leetcode.com/problems/network-delay-time/submissions/">네트워크 딜레이 타임</a></td>
     <td>
       <a href="">풀이1</a>
     </td>
@@ -507,7 +507,7 @@
   </tr>
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/">🤔 K 경유지 내 가장 저렴한 항공권</a></td>
+      <a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/">K 경유지 내 가장 저렴한 항공권</a></td>
     <td>
       <a href="">풀이1</a>
     </td>
@@ -518,10 +518,11 @@
 
 
   <tr>
+    <td rowspan="8" href="">이진 트리</td>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/">이진 트리의 최대 깊이</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./Leetcode(파알인)/10.이진트리/">풀이1(BFS))</a>
     </td>
     <td>
       <a href="">Notes</a>
