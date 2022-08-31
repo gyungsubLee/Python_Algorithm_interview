@@ -558,9 +558,9 @@
     <td>
       <a href="https://leetcode.com/problems/invert-binary-tree/submissions/">이진 트리 반전</a></td>
     <td>
-      <a href="/10-이진트리/226-invert-binary-tree/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
-      <a href="/10-이진트리/226-invert-binary-tree/풀이2(DFS-stack).py">풀이2(DFS-stack)</a>, 
-      <a href="/10-이진트리/226-invert-binary-tree/풀이3(BFS-Queue).py">풀이3(BFS-Queue)</a>
+      <a href="./10-이진트리/226-invert-binary-tree/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
+      <a href="./10-이진트리/226-invert-binary-tree/풀이2(DFS-stack).py">풀이2(DFS-stack)</a>, 
+      <a href="./10-이진트리/226-invert-binary-tree/풀이3(BFS-Queue).py">풀이3(BFS-Queue)</a>
     </td>
     <td>
       <a href="/10-이진트리/226-invert-binary-tree/NOTES.md">Notes</a>
