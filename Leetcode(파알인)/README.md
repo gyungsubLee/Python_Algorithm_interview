@@ -553,7 +553,34 @@
       <a href="./10-이진트리/687-longest-univalue-path/NOTES.md">Notes</a>
     </td>
   </tr>
+
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/invert-binary-tree/submissions/">이진 트리 반전</a></td>
+    <td>
+      <a href="/10-이진트리/226-invert-binary-tree/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
+      <a href="/10-이진트리/226-invert-binary-tree/풀이2(DFS-stack).py">풀이2(DFS-stack)</a>, 
+      <a href="/10-이진트리/226-invert-binary-tree/풀이3(BFS-Queue).py">풀이3(BFS-Queue)</a>
+    </td>
+    <td>
+      <a href="/10-이진트리/226-invert-binary-tree/NOTES.md">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
   
+
 
   <tr>
     <td rowspan="5" href=""></td>
