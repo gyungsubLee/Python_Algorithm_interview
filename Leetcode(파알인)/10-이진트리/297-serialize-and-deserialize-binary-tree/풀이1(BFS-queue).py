@@ -1,12 +1,12 @@
 # Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Codec:
-
+    # BFS: TreeNode -> list -> str
     def serialize(self, root:TreeNode) -> str:
         q = collections.deque([root])
         result = []
@@ -20,6 +20,7 @@ class Codec:
             else:
                 result.append('#')
         return ' '.join(result) # list -> str
+
 
     def deserialize(self, data:str)->TreeNode:
         if data == '#':
