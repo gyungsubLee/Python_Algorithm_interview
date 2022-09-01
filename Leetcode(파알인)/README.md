@@ -611,18 +611,6 @@
     </td>
   </tr>
 
-  <tr>
-    <td>
-      <a href=""></a></td>
-    <td>
-      <a href="">풀이1</a>
-    </td>
-    <td>
-      <a href="">Notes</a>
-    </td>
-  </tr>
-  
-
 
   <tr>
     <td rowspan="5" href=""></td>
