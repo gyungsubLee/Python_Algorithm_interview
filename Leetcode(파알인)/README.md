@@ -591,12 +591,12 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/balanced-binary-tree/">균형 이진트리</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./10-이진트리/110-balanced-binary-tree/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./10-이진트리/110-balanced-binary-tree/NOTES.md">Notes</a>
     </td>
   </tr>
 
