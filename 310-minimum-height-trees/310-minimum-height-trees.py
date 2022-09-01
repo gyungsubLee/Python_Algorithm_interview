@@ -6,7 +6,7 @@ class Solution:
             graph[i].append(j)
             graph[j].append(i)
         leaves = []
-        for i in range(n):
+        for i in range(n+1):
             if len(graph[i]) == 1:
                 leaves.append(i)
         while n > 2:
