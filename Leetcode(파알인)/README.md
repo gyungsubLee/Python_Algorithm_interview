@@ -602,25 +602,25 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/minimum-height-trees/submissions/">최노 높이 트리</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./10-이진트리/310-minimum-height-trees/풀이1(BFS).py">풀이1(BFS)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./10-이진트리/110-balanced-binary-tree/NOTES.md">Notes</a>
     </td>
   </tr>
 
 
   <tr>
-    <td rowspan="5" href=""></td>
+    <td rowspan="5" href="">이진 탐색 트리</td>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/">정렬된 배열의 이진 탐색 트리 반환</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="">풀이1(재귀)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./11-이진탐색트리/108-convert-sorted-array-to-binary-search-tree/NOTES.md">Notes</a>
     </td>
   </tr>
 
