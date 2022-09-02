@@ -4,18 +4,11 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
-    prev = -sys.maxsize
-    result = sys.maxsize
-    
-    def minDiffInBST(self, root: Optional[TreeNode]) -> int:
-        if root.left:
-            self.minDiffInBST(root.left)
-        
-        self.result = min(self.result, root.val - self.prev)
-        self.prev = root.val
-        
-        if root.right:
-            self.minDiffInBST(root.right)
-        
-        return self.result
+class Solution(object):
+    def minDiffInBST(self, root):
+        def fn(node, lo, hi):
+            if not node: return hi - lo
+            left = fn(node.left, lo, node.val)
+            right = fn(node.right, node.val, hi)
+            return min(left, right)
+        return fn(root, float('-inf'), float('inf'))
