@@ -617,7 +617,7 @@
     <td>
       <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/">정렬된 배열의 이진 탐색 트리 반환</a></td>
     <td>
-      <a href="">풀이1(재귀)</a>
+      <a href="./11-이진탐색트리/108-convert-sorted-array-to-binary-search-tree/풀이1(재귀).py">풀이1(재귀)</a>
     </td>
     <td>
       <a href="./11-이진탐색트리/108-convert-sorted-array-to-binary-search-tree/NOTES.md">Notes</a>
@@ -627,6 +627,55 @@
 
   <tr>
     <td>
+      <a href="https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/"></a></td>
+    <td>
+      <a href="./11-이진탐색트리/1038-binary-search-tree-to-greater-sum-tree/풀이1(DFS-재귀).py">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2" href="">샘플</td>
+    <td>
       <a href=""></a></td>
     <td>
       <a href="">풀이1</a>
@@ -649,8 +698,8 @@
   </tr>
 
 
-
-  <tr>
+<tr>
+    <td rowspan="2" href="">샘플</td>
     <td>
       <a href=""></a></td>
     <td>
