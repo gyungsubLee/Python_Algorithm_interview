@@ -520,7 +520,7 @@
   <tr>
     <td rowspan="8" href="">이진 트리</td>
     <td>
-      <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/">이진 트리의 최대 깊이</a></td>
+      <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/">이진트리의 최대 깊이</a></td>
     <td>
       <a href="./10-이진트리/104-maximum-depth-of-binary-tree/풀이1(BFS).py">풀이1(BFS))</a>
     </td>
@@ -533,7 +533,7 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/diameter-of-binary-tree/">이진 트리의 직경</a></td>
+      <a href="https://leetcode.com/problems/diameter-of-binary-tree/">이진트리의 직경</a></td>
     <td>
       <a href="">🤔풀이1(DFS)</a>
     </td>
@@ -556,7 +556,7 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/invert-binary-tree/submissions/">이진 트리 반전</a></td>
+      <a href="https://leetcode.com/problems/invert-binary-tree/submissions/">이진트리 반전</a></td>
     <td>
       <a href="./10-이진트리/226-invert-binary-tree/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
       <a href="./10-이진트리/226-invert-binary-tree/풀이2(DFS-stack).py">풀이2(DFS-stack)</a>, 
@@ -569,7 +569,7 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/merge-two-binary-trees/submissions/">두 이진 트리 병합</a></td>
+      <a href="https://leetcode.com/problems/merge-two-binary-trees/submissions/">두 이진트리 병합</a></td>
     <td>
       <a href="./10-이진트리/617-merge-two-binary-trees/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>
     </td>
@@ -615,7 +615,7 @@
   <tr>
     <td rowspan="5" href="">이진 탐색 트리</td>
     <td>
-      <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/">정렬된 배열의 이진 탐색 트리 반환</a></td>
+      <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/">정렬된 배열의 이진탐색트리 반환</a></td>
     <td>
       <a href="./11-이진탐색트리/108-convert-sorted-array-to-binary-search-tree/풀이1(재귀).py">풀이1(재귀)</a>
     </td>
@@ -639,11 +639,11 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/range-sum-of-bst/">이진 탐색 트리 합의 범위</a></td>
+      <a href="https://leetcode.com/problems/range-sum-of-bst/">이진탐색트리 합의 범위</a></td>
     <td>
       <a href="./11-이진탐색트리/938-range-sum-of-bst/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
       <a href="./11-이진탐색트리/938-range-sum-of-bst/풀이2(DFS-Stack).py">풀이2(DFS-stack)</a>, 
-      <a href="./11-이진탐색트리/938-range-sum-of-bst/풀이(BFS-Queue).py">풀이3(BFS-Queue)</a>
+      <a href="./11-이진탐색트리/938-range-sum-of-bst/풀이3(BFS-Queue).py">풀이3(BFS-Queue)</a>
     </td>
     <td>
       <a href="">Notes</a>
@@ -651,12 +651,11 @@
   </tr>
 
 
-
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/minimum-distance-between-bst-nodes/">이진탐색트리 노드 간 최소거리</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./11-이진탐색트리/783-minimum-distance-between-bst-nodes/풀이1(재귀).py">풀이1</a>
     </td>
     <td>
       <a href="">Notes</a>
