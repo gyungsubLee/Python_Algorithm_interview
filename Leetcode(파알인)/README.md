@@ -613,7 +613,7 @@
 
 
   <tr>
-    <td rowspan="5" href="">이진 탐색 트리</td>
+    <td rowspan="4" href="">이진 탐색 트리</td>
     <td>
       <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/">정렬된 배열의 이진탐색트리 반환</a></td>
     <td>
@@ -665,10 +665,11 @@
 
 
   <tr>
+    <td rowspan="1" href="">트리 순회</td>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/">전위, 중위 순회 결과로 이진트리 구축</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./11-이진탐색트리/105-construct-binary-tree-from-preorder-and-inorder-traversal/풀이1(재귀).py">풀이1(재귀)</a>
     </td>
     <td>
       <a href="">Notes</a>
