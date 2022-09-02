@@ -627,9 +627,9 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/"></a></td>
+      <a href="https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/">이진탐색트리를 더 큰 수 합계 트리로</a></td>
     <td>
-      <a href="./11-이진탐색트리/1038-binary-search-tree-to-greater-sum-tree/풀이1(DFS-재귀).py">풀이1</a>
+      <a href="./11-이진탐색트리/1038-binary-search-tree-to-greater-sum-tree/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>
     </td>
     <td>
       <a href="">Notes</a>
@@ -639,9 +639,11 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/range-sum-of-bst/">이진 탐색 트리 합의 범위</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./11-이진탐색트리/938-range-sum-of-bst/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
+      <a href="./11-이진탐색트리/938-range-sum-of-bst/풀이2(DFS-Stack).py">풀이2(DFS-stack)</a>, 
+      <a href="./11-이진탐색트리/938-range-sum-of-bst/풀이(BFS-Queue).py">풀이3(BFS-Queue)</a>
     </td>
     <td>
       <a href="">Notes</a>
