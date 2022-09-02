@@ -655,7 +655,8 @@
     <td>
       <a href="https://leetcode.com/problems/minimum-distance-between-bst-nodes/">이진탐색트리 노드 간 최소거리</a></td>
     <td>
-      <a href="./11-이진탐색트리/783-minimum-distance-between-bst-nodes/풀이1(재귀).py">풀이1</a>
+      <a href="./11-이진탐색트리/783-minimum-distance-between-bst-nodes/풀이1(재귀).py">🤔 풀이1(재귀)</a>, 
+      <a href="./11-이진탐색트리/783-minimum-distance-between-bst-nodes/풀이2(Stack).py">🤔 풀이2(Stack)</a>
     </td>
     <td>
       <a href="">Notes</a>
