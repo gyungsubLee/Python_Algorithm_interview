@@ -1,3 +1,5 @@
+# Reference: https://leetcode.com/problems/reorder-data-in-log-files/discuss/779319/Python-Custom-Sort-Solution-With-Explanation
+
 class Solution:
     def reorderLogFiles(self, logs: List[str]) -> List[str]:
         

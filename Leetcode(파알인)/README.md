@@ -49,23 +49,28 @@
 
   <tr>
     <td><a href="https://leetcode.com/problems/reorder-data-in-log-files/">로그파일 재정렬</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/937-reorder-data-in-log-files/%ED%92%80%EC%9D%B41-%EB%9E%8C%EB%8B%A4.py">풀이1(lambda)</a>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/937-reorder-data-in-log-files/NOTES.md">Notes</a><br/><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md">lambda</a></td>
+    <td><a href="./1-문자열조작/937-reorder-data-in-log-files/풀이1(lambda).py">풀이1(lambda)</a>, 
+    <a href="./1-문자열조작/937-reorder-data-in-log-files/풀이2.py">🤔 풀이2</a>
+    <td><a href="./1-문자열조작/937-reorder-data-in-log-files/NOTES.md">Notes</a><br/><a href="./문법/lambda.md">lambda</a></td>
   </tr>
 
 
    <tr>
     <td><a href="https://leetcode.com/problems/most-common-word/">가장 흔한 단어</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/819-most-common-word/%ED%92%80%EC%9D%B41(%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%BB%B4%ED%94%84%EB%A6%AC%ED%97%A8%EC%85%98%2Cmax).py">풀이1(리스트컴프리헨션, max)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/819-most-common-word/%ED%92%80%EC%9D%B42(%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%BB%B4%ED%94%84%EB%A6%AC%ED%97%A8%EC%85%98%2CCounter).py">풀이2(Couter)</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/819-most-common-word/NOTES.md">Notes</a>
-    <br><a href="">Counter, most_common</a></td>
+    <td><a href="./1-문자열조작/819-most-common-word/풀이1(리스트컴프리헨션-max).py">풀이1(리스트컴프리헨션, max)</a>, 
+    <a href="./1-문자열조작/819-most-common-word/풀이2(리스트컴프리헨션-Counter).py">풀이2(Couter)</a></td>
+    <td><a href="./1-문자열조작/819-most-common-word/NOTES.md">Notes</a>
+    <br><a href="./문법/Counter(most_common).md">Counter(most_common)</a></td>
   </tr>
 
 
    <tr>
     <td><a href="https://leetcode.com/problems/group-anagrams/submissions/">그룹 애너그램</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/%ED%92%80%EC%9D%B41(dict-%EC%A0%95%EB%A0%AC).py">풀이1(정렬)</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/NOTES.md">Notes</a><br/><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/49-group-anagrams/%EC%A0%95%EB%A0%AC(sorted%2Csort).md">정렬(sort, sorted)</a></td>
+    <td><a href="./1-문자열조작/49-group-anagrams/풀이1(dict-정렬).py">풀이1(정렬)</a></td>
+    <td>
+      <a href="./1-문자열조작/49-group-anagrams/NOTES.md">Notes</a><br/>
+      <a href="./문법/정렬(sorted,sort).md">정렬(sort, sorted)</a>
+    </td>
   </tr>
 
   <tr>
