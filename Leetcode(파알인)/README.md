@@ -35,9 +35,11 @@
 <table>
   <tr>
     <td rowspan="6">문자열 조작</td>
-    <td><a href="https://leetcode.com/problems/valid-palindrome/submissions/">유효한 팰린드롬</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%ED%92%80%EC%9D%B41-Array.py">풀이1(Array)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%ED%92%80%EC%9D%B42-Deque.py">풀이2(Deque)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/%ED%92%80%EC%9D%B43-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1.py">풀이3(슬라이싱)</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/125-valid-palindrome/NOTES.md">Notes</a><br/><a href="">슬라이싱</a></td>
+    <td><a href="https://leetcode.com/problems/125-valid-palindrome/submissions/">유효한 팰린드롬</a></td>
+    <td><a href="./1-문자열조작/125-valid-palindrome/풀이1(Array).py">풀이1(Array)</a>, 
+    <a href="./1-문자열조작/125-valid-palindrome/풀이2(Deque).py">풀이2(Deque)</a>, 
+    <a href="./1-문자열조작/125-valid-palindrome/풀이3(슬라이싱).py">풀이3(슬라이싱)</a></td>
+    <td><a href="./1-문자열조작/125-valid-palindrome/NOTES.md">Notes</a><br/><a href="./문법/슬라이싱.md">슬라이싱</a></td>
   </tr>
 
   <tr>
