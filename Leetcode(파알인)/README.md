@@ -10,10 +10,7 @@
 - [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=245495826)
 
 
-<br><br>
-
-|chapter|주제|내용|
-|:-----:|:--:|:--:|
+<br>
 
 - [빅오, 시간복잡도](https://velog.io/@dltjq2323/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%ED%9A%A8%EC%9C%A8%EC%84%B1%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84-%EA%B3%B5%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84-%EB%B9%85%EC%98%A4)
 
@@ -44,8 +41,10 @@
 
   <tr>
     <td><a href="https://leetcode.com/problems/reverse-string/submissions/">문자열 뒤집기</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/344-reverse-string/%ED%92%80%EC%9D%B41-%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0.py">풀이1(투포인터)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/344-reverse-string/%ED%92%80%EC%9D%B42-%EB%82%B4%EC%9E%A5%ED%95%A8%EC%88%98.py">풀이2(내장함수)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/344-reverse-string/%ED%92%80%EC%9D%B43-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1.py">풀이3(슬라이싱)</a></td>
-    <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode/344-reverse-string/NOTES.md">Notes</a></td>
+    <td><a href="./1-문자열조작/344-reverse-string/풀이1(투포인터).py">풀이1(투포인터)</a>, 
+    <a href="./1-문자열조작/344-reverse-string/풀이2(내장함수).py">풀이2(내장함수)</a>, 
+    <a href="./1-문자열조작/344-reverse-string/풀이3(슬라이싱).py">풀이3(슬라이싱)</a></td>
+    <td><a href="./1-문자열조작/344-reverse-string/NOTES.md">Notes</a></td>
   </tr>
 
   <tr>
