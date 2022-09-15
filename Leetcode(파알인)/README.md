@@ -75,8 +75,8 @@
 
   <tr>
       <td><a href="https://leetcode.com/problems/longest-palindromic-substring/submissions/">가장 긴 팰린드롬 부분 문자열</a></td>
-      <td><a href="">풀이1(투포인트)</a></td>
-      <td><a href="">Notes</a><br/><a href="">유니코드, UTF-8</a></td>
+      <td><a href="./1-문자열조작/5-longest-palindromic-substring/풀이1(투포인터).py">풀이1(투포인트)</a></td>
+      <td><a href="./1-문자열조작/5-longest-palindromic-substring/NOTES.md">Notes</a><br/><a href="">유니코드, UTF-8</a></td>
   </tr>
 
 
