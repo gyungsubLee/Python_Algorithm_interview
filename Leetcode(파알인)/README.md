@@ -683,7 +683,21 @@
   </tr>
 
   <tr>
-    <td rowspan="2" href="">샘플</td>
+    <td rowspan="1"><a href="https://velog.io/@dltjq2323/%ED%9E%99heap">힙(heap)</a></td>
+    <td>
+      <a href="">배열의 K번째 큰 요소</a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>,
+      <a href="./12-힙/힙연산.md">힙 연산</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td rowspan="2" href=""><a href="">트라이</a></td>
     <td>
       <a href=""></a></td>
     <td>
