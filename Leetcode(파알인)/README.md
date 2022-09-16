@@ -687,11 +687,12 @@
     <td>
       <a href="https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/">배열의 K번째 큰 요소</a></td>
     <td>
-      <a href=".12-힙/215-kth-largest-element-in-an-array/풀이1(maxHeap구현).py">풀이1</a>, 
-      <a href=".12-힙/215-kth-largest-element-in-an-array/풀이2(heapq모듈)">풀이2</a>
+      <a href="./12-힙/215-kth-largest-element-in-an-array/풀이1(maxHeap구현).py">풀이1(maxHeap구현)</a>, 
+      <a href="./12-힙/215-kth-largest-element-in-an-array/풀이2(heapq모듈).py">풀이2(heapq모듈)</a>, 
+      <a href="./12-힙/215-kth-largest-element-in-an-array/풀이3(정렬).py">풀이2(정렬)</a>
     </td>
     <td>
-      <a href=".12-힙/215-kth-largest-element-in-an-array/NOTES.md">Notes</a>,
+      <a href="./12-힙/215-kth-largest-element-in-an-array/NOTES.md">Notes</a>,
       <a href="./12-힙/힙연산.md">힙 연산</a>
     </td>
   </tr>
