@@ -697,15 +697,14 @@
     </td>
   </tr>
 
-208-implement-trie-prefix-tree
 
   <tr>
     <td rowspan="2"><a href="https://velog.io/@dltjq2323/트라이Trie#트라이trie">😗 트라이 - 정리 중</a></td>
     <td>
       <a href="https://leetcode.com/problems/implement-trie-prefix-tree/submissions/"> 🤔 트라이 구현</a></td>
     <td>
-      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이1.py">풀이1</a>, 
-      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이2.py">풀이2</a>
+      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이1.py">풀이1(dict)</a>, 
+      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이2.py">풀이2(dict)</a>
     </td>
     <td>
       <a href="./13-트라이/208-implement-trie-prefix-tree/NOTES.md">Notes</a>
@@ -715,12 +714,12 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/palindrome-pairs/">🤔 팰린드롬 페어</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./13-트라이/336-palindrome-pairs/풀이1(Trie).py">풀이1(Trie)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./13-트라이/336-palindrome-pairs/NOTES.md">Notes</a>
     </td>
   </tr>
 
