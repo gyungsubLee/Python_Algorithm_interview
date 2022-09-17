@@ -524,7 +524,7 @@
 
 
   <tr>
-    <td rowspan="8" href="">이진 트리</td>
+    <td rowspan="8"><a href="">😗 이진 트리</a></td>
     <td>
       <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/">이진트리의 최대 깊이</a></td>
     <td>
@@ -697,16 +697,18 @@
     </td>
   </tr>
 
+208-implement-trie-prefix-tree
 
   <tr>
-    <td rowspan="2" href=""><a href="">트라이</a></td>
+    <td rowspan="2"><a href="https://velog.io/@dltjq2323/트라이Trie#트라이trie">😗 트라이 - 정리 중</a></td>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/implement-trie-prefix-tree/submissions/"> 🤔 트라이 구현</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이1.py">풀이1</a>, 
+      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이2.py">풀이2</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./13-트라이/208-implement-trie-prefix-tree/NOTES.md">Notes</a>
     </td>
   </tr>
 
@@ -724,7 +726,7 @@
 
 
 <tr>
-    <td rowspan="2" href="">샘플</td>
+    <td rowspan="2"><a href="">샘플</a></td>
     <td>
       <a href=""></a></td>
     <td>

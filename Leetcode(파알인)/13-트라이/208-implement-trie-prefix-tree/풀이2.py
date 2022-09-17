@@ -1,3 +1,6 @@
+# Reference) 
+# https://leetcode.com/problems/implement-trie-prefix-tree/discuss/631419/Python-sol-by-dictionary.-80%2B-w-Visualization
+
 class Trie:
     def __init__(self):
         self.trie = {}
@@ -10,8 +13,6 @@ class Trie:
             table = table[char]
         table['@'] = {}
         
-        
-
     def search(self, word: str) -> bool:
         table = self.trie
         for char in word:
@@ -27,3 +28,12 @@ class Trie:
             if table is None:
                 return False
         return True
+
+a = Trie()
+
+a.insert('apple')
+a.search('apple') # True
+a.search('app') # False
+a.startsWith('app') # True
+a.insert('app') 
+a.search('app') # True
