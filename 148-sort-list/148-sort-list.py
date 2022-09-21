@@ -4,31 +4,21 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def mergeTwoList(self, l1: ListNode, l2:ListNode) -> ListNode:
-        if l1 and l2:
-            if l1.val > l2.val:
-                l1, l2 = l2, l1
-            l1.next = self.mergeTwoList(l1.next, l2)
-        
-        return l1 or l2
-        
-        
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not (head and head.next):
-            return head
+        lst:List = []
         
-        # 런너를 사용하여 중간 노드 찾기
-        half, fast, slow = None, head, head
-        while fast and fast.next:
-            half = slow
-            fast = fast.next.next
-            slow = slow.next
-        half.next = None
+        node = head
+        while node:
+            lst.append(node.val)
+            node = node.next
         
-        # 분할 재귀호출
-        l1 = self.sortList(head)
-        l2 = self.sortList(slow)
+        lst.sort()
         
-        return self.mergeTwoList(l1, l2)
+        node = head
+        for i in range(len(lst)):
+            node.val = lst[i]
+            node = node.next
+        
+        return head
         
         
