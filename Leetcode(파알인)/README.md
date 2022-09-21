@@ -726,12 +726,13 @@
   tr>
     <td rowspan="6"><a href="">정렬</a></td>
     <td>
-      <a href="">리스트 정렬</a></td>
+      <a href="https://leetcode.com/problems/sort-list/">리스트 정렬</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./14-정렬/148-sort-list/풀이1(병합정렬-런너).py">풀이1(병합정렬-런너)</a>, 
+      <a href="./14-정렬/148-sort-list/풀이2(sort).py">풀이2(sort)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./14-정렬/148-sort-list/NOTES.md">Notes</a>
     </td>
   </tr>
 
