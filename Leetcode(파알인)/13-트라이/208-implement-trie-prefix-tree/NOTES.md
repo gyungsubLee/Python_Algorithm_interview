@@ -4,13 +4,13 @@
 > 시간복잡도 : O(n) [insert, search] 
 
 
-<img src="https://user-images.githubusercontent.com/95308384/191414064-ef111f09-70bf-45c8-9d85-9bef825933db.png" width=60% />
+<img src="https://user-images.githubusercontent.com/95308384/191414064-ef111f09-70bf-45c8-9d85-9bef825933db.png" width=40% />
 
 
  트라이 자료구조는 'apple'이라는 단어를 insert 시 위와 같이 트리를 구성하며
 
 
-<img src="https://user-images.githubusercontent.com/95308384/191413979-bb5bc0ff-ef79-4c59-b099-e5ff3bd7e837.png" width=60% />
+<img src="https://user-images.githubusercontent.com/95308384/191413979-bb5bc0ff-ef79-4c59-b099-e5ff3bd7e837.png" width=40% />
 
 
 'appear' , 'appeal' 2개의 
@@ -29,9 +29,9 @@
 
 ```python
 for c in word:                        
-            if c not in cur.children:         
-                cur.children[c] = TrieNode() 
-            cur = cur.children[c]  
+    if c not in cur.children:         
+        cur.children[c] = TrieNode() 
+    cur = cur.children[c]  
 ```
 
 특히, 아래의 코드가 이해가 힘들었다.
@@ -55,5 +55,34 @@ map도 자료구조이고 결국에는 데이터를 효율적으로 관리하기
 
 
 
+<br>
+
+<br>
 
 
+# ✍️ 풀이2 (dict -> defaultdict)
+dict -> defaultdict로 변경하여 생성과 node이동을 한번에 처리 가능하다.
+
+<br>
+
+### ● dict
+
+```python
+for c in word:                        
+    if c not in cur.children:         
+        cur.children[c] = TrieNode() 
+    cur = cur.children[c]
+```
+
+<br>
+
+### ●  defaultdict
+
+```python
+self.children = collections.defaultdict(TrieNode)
+
+...
+
+for c in word:
+    cur = cur.children[c]
+```

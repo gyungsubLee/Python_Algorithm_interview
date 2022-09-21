@@ -1,6 +1,8 @@
 # Reference) 
 # https://leetcode.com/problems/implement-trie-prefix-tree/discuss/631419/Python-sol-by-dictionary.-80%2B-w-Visualization
 
+
+# 비선호
 class Trie:
     def __init__(self):
         self.trie = {}
