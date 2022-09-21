@@ -1,7 +1,7 @@
 # Algorithm 풀이 정리
 ## 자동 commit 
-- 백준허브
-- leethub
+- [백준허브](https://github.com/BaekjoonHub/BaekjoonHub)
+- [leethub](https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi)
 
 <br/>
 
