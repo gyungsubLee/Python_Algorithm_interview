@@ -699,12 +699,12 @@
 
 
   <tr>
-    <td rowspan="2"><a href="https://velog.io/@dltjq2323/트라이Trie#트라이trie">😗 트라이 - 정리 중</a></td>
+    <td rowspan="2"><a href="https://velog.io/@dltjq2323/트라이Trie#트라이trie">트라이</a></td>
     <td>
-      <a href="https://leetcode.com/problems/implement-trie-prefix-tree/submissions/"> 🤔 트라이 구현</a></td>
+      <a href="https://leetcode.com/problems/implement-trie-prefix-tree/submissions/">트라이 구현</a></td>
     <td>
-      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이1.py">풀이1(dict)</a>, 
-      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이2.py">풀이2(dict)</a>
+      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이1(트라이-Map).py">풀이1(트라이-Map)</a>, 
+      <a href="./13-트라이/208-implement-trie-prefix-tree/풀이2(트라이-defaultdict).py">풀이2(트라이-defaultdict)</a>
     </td>
     <td>
       <a href="./13-트라이/208-implement-trie-prefix-tree/NOTES.md">Notes</a>
