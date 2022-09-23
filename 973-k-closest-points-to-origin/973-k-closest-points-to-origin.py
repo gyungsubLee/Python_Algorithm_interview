@@ -8,7 +8,7 @@ class Solution:
         result = []
         for _ in range(k):
             (dist, x, y) = heapq.heappop(heap)
-            result.append([x, y])
+            result.append((x, y))
         return result
         
         
