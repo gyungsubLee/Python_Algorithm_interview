@@ -10,6 +10,8 @@
 - [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=245495826)
 
 
+- [파알인-github](https://github.com/onlybooks/algorithm-interview)
+
 <br>
 
 - [빅오, 시간복잡도](https://velog.io/@dltjq2323/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%ED%9A%A8%EC%9C%A8%EC%84%B1%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84-%EA%B3%B5%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84-%EB%B9%85%EC%98%A4)
@@ -736,15 +738,14 @@
     </td>
   </tr>
 
-
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/merge-intervals/submissions/">구간 병합</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./14-정렬/148-merge-intervals/풀이(lambda).py">풀이(lambda)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./14-정렬/148-merge-intervals/NOTES.md">Notes</a>
     </td>
   </tr>
 
