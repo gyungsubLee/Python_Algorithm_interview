@@ -774,12 +774,13 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/valid-anagram/submissions/">유효한 애너그램</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./14-정렬/242-valid-anagram/풀이1(sorted).py">풀이1(sorted)</a>, 
+      <a href="./14-정렬/242-valid-anagram/풀이2(dict).py">풀이2(dict)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./14-정렬/242-valid-anagram/NOTES.md">Notes</a>
     </td>
   </tr>
 
