@@ -742,10 +742,10 @@
     <td>
       <a href="https://leetcode.com/problems/merge-intervals/submissions/">구간 병합</a></td>
     <td>
-      <a href="./14-정렬/148-merge-intervals/풀이(lambda).py">풀이(lambda)</a>
+      <a href="./14-정렬/56-merge-intervals/풀이1(lambda).py">풀이(lambda)</a>
     </td>
     <td>
-      <a href="./14-정렬/148-merge-intervals/NOTES.md">Notes</a>
+      <a href="./14-정렬/56-merge-intervals/NOTES.md">Notes</a>
     </td>
   </tr>
 
