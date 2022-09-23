@@ -751,12 +751,13 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/insertion-sort-list/">삽입 정렬 리스트</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./14-정렬/147-insertion-sort-list/풀이1(삽입정렬).py">풀이1(삽입정렬)</a>, 
+      <a href="./14-정렬/147-insertion-sort-list/풀이2(개선).py">풀이2(개선)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./14-정렬/147-insertion-sort-list/NOTES.md">Notes</a>
     </td>
   </tr>
 
