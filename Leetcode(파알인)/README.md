@@ -765,7 +765,7 @@
     <td>
       <a href="https://leetcode.com/problems/largest-number/submissions/">가장 큰 수</a></td>
     <td>
-      <a href="./14-정렬/179-largest-number/풀이1(삽입정렬).py">풀이1(삽입정렬)</a>
+      <a href="./14-정렬/179-largest-number/풀이1(삽입정렬).py">🤔 풀이1(삽입정렬)</a>
     </td>
     <td>
       <a href="./14-정렬/179-largest-number/NOTES.md">Notes</a>
@@ -786,12 +786,12 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/sort-colors/">색 정렬</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./14-정렬/75-sort-colors/풀이1(퀵정렬).py">풀이1(퀵정렬)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href=./14-정렬/75-sort-colors/NOTES.md">Notes</a>
     </td>
   </tr>
 
