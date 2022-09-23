@@ -726,7 +726,7 @@
   </tr>
 
   tr>
-    <td rowspan="6"><a href="">정렬</a></td>
+    <td rowspan="7"><a href="">정렬</a></td>
     <td>
       <a href="https://leetcode.com/problems/sort-list/">리스트 정렬</a></td>
     <td>
@@ -794,6 +794,21 @@
       <a href=./14-정렬/75-sort-colors/NOTES.md">Notes</a>
     </td>
   </tr>
+
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/k-closest-points-to-origin/submissions/">원점에 K번째로 가까운 점</a></td>
+    <td>
+      <a href="./14-정렬/973-k-closest-points-to-origin/풀이1(lambda).py">풀이1(lambda)</a>, 
+      <a href="./14-정렬/973-k-closest-points-to-origin/풀이2(heapq).py">풀이2(heapq)</a>
+    </td>
+    <td>
+      <a href="./14-정렬/973-k-closest-points-to-origin/NOTES.md">Notes</a>
+    </td>
+  </tr>
+
+
+  
 
 
 <tr>
