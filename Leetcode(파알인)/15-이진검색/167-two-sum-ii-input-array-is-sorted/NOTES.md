@@ -27,7 +27,7 @@ class Solution:
 # 풀이2(이진 검색 - 반복, 투포인터)
 
 투포인터 와 while문 반복을 통해 구하는 풀이이다.
-이전에 enumerate로 index 와 value 값을 받고, 해당 value 값의 다음 index 범위부터 이진 검색으로 탐색을 하여 expected(target-value)를 구한다. for문으로 O(n), 이진 검색으로 O(nlogN), 따라서 ```O(nlogN)```의 연산으로 풀이된다.
+enumerate로 index 와 value 값을 받고, 해당 value 값의 다음 index 범위부터 이진 검색으로 탐색을 하여 expected(target-value)를 구한다. for문으로 O(n), 이진 검색으로 O(logN), 따라서 ```O(nlogN)```의 연산으로 풀이된다.
 
 
 ```python
