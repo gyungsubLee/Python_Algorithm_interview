@@ -1,21 +1,26 @@
-
-from typing import List
-
-
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        for k, v in enumerate(numbers):
-            left, right = k + 1, len(numbers) - 1
-            expected = target - v
-            # 이진 검색으로 나머지 값 판별
-            while left <= right:
+        def binary_search(left, right):
+            if left <= right:
                 mid = left + (right - left) // 2
                 if numbers[mid] < expected:
-                    left = mid + 1
+                    return binary_search(mid+1, right)
                 elif numbers[mid] > expected:
-                    right = mid - 1
+                    return binary_search(left, mid-1)
                 else:
-                    return k + 1, mid + 1
+                    return mid
+            else:
+                return -1
+                
+        for k, v in enumerate(numbers):
+            left, right = k+1, len(numbers)-1
+            expected = target - v
+            v = binary_search(k+1, len(numbers)-1)
+            if v > 0:
+                return k+1, v+1
+            
+            
+            
         
                 
         
