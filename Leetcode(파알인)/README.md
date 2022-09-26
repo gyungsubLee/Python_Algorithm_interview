@@ -808,6 +808,67 @@
   </tr>
 
 
+<tr>
+    <td rowspan="5"><a href="">🤔 이진 검색</a></td>
+    <td>
+      <a href="https://leetcode.com/problems/binary-search/">이진 검색</a></td>
+    <td>
+      <a href="./15-이진검색/704-binary-search/풀이1(재귀, 투포인터).py">풀이1(재귀, 투포인터)</a>, 
+      <a href="./15-이진검색/704-binary-search/풀이2(반복, 투포인터).py">풀이2(반복, 투포인터)</a>
+    </td>
+    <td>
+      <a href="./15-이진검색/704-binary-search/NOTES.md">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">🤔 회전 정렬된 배열 검색</a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/intersection-of-two-arrays/">두 배열의 교집합</a></td>
+    <td>
+      <a href="./15-이진검색/349-intersection-of-two-arrays/풀이1(브루트 포스).py">풀이1(브루트 포스)</a>, 
+      <a href="./15-이진검색/349-intersection-of-two-arrays/풀이2(이진검색).py">풀이2(이진검색)</a>, 
+      <a href="./15-이진검색/349-intersection-of-two-arrays/풀이3(투포인터).py">풀이3(투포인터)</a>
+    </td>
+    <td>
+      <a href="./15-이진검색/349-intersection-of-two-arrays/NOTES.md">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
   
 
 
