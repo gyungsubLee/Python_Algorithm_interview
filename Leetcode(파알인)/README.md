@@ -861,12 +861,13 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/search-a-2d-matrix-ii/">2D 행렬 검색 II</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./15-이진검색/240-search-a-2d-matrix-ii/풀이1(이진검색-재귀,투포인터).py">풀이1(이진검색-재귀,투포인터)</a>, 
+      <a href="./15-이진검색/240-search-a-2d-matrix-ii/풀이2(투포인터).py">풀이2(투포인터)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./15-이진검색/240-search-a-2d-matrix-ii/NOTES.md">Notes</a>
     </td>
   </tr>
 

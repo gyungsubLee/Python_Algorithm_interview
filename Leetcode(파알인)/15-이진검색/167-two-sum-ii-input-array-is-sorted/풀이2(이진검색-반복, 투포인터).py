@@ -12,7 +12,5 @@ class Solution:
                 elif numbers[mid] > expected:
                     right = mid - 1
                 else:
-                    return k + 1, mid + 1
-        
-                
+                    return k + 1, mid + 1        
         
