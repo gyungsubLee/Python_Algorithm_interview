@@ -1,5 +1,6 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        # 이진 검색 -> 재귀
         def binary_search(left, right):
             if left <= right:
                 mid = left + (right - left) // 2

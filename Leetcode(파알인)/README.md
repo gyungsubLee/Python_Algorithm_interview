@@ -848,12 +848,14 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">두 수의 합</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./15-이진검색/167-two-sum-ii-input-array-is-sorted/풀이1(투포인터).py">풀이1(투포인터)</a>, 
+      <a href="./15-이진검색/167-two-sum-ii-input-array-is-sorted/풀이2(이진검색-반복, 투포인터).py">풀이2(이진검색-반복, 투포인터)</a>, 
+      <a href="./15-이진검색/167-two-sum-ii-input-array-is-sorted/풀이3(이진검색-재귀, 투포인터).py">풀이3(이진검색-재귀, 투포인터)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./15-이진검색/167-two-sum-ii-input-array-is-sorted/NOTES.md">Notes</a>
     </td>
   </tr>
 
