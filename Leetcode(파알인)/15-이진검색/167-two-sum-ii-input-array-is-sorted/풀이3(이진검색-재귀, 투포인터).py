@@ -19,9 +19,4 @@ class Solution:
             v = binary_search(k+1, len(numbers)-1)
             if v > 0:
                 return k+1, v+1
-            
-            
-            
-        
-                
         
