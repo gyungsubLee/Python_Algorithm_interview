@@ -1,21 +1,19 @@
 class Solution:
-    def binary_search(self, nums:List[int], target: int, left, right)->int:
-        if left <= right:
-            mid = left + (right - left) // 2
-            if nums[mid] < target:
-                return self.binary_search(nums, target, mid+1, right)
-            elif nums[mid] > target:
-                return self.binary_search(nums, target, left, mid-1)
-            else:
-                return mid
-        else: 
-            return -1
-
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        for i in range(len(matrix)):
-            nums = matrix[i]
-            if self.binary_search(nums, target, 0, len(nums)-1) != -1:
+        if not matrix:
+            return False
+        
+        row, col = 0, len(matrix[0])-1
+        
+        while row <= len(matrix)-1 and col >= 0:
+            if target == matrix[row][col]:
                 return True
+            elif target < matrix[row][col]:
+                col -= 1
+            elif target > matrix[row][col]:
+                row += 1
         return False
-    
+                
+        
+        
             
