@@ -13,10 +13,9 @@ class Solution:
             else:
                 return -1
                 
-        for k, v in enumerate(numbers):
-            left, right = k+1, len(numbers)-1
+        for i, v in enumerate(numbers):
             expected = target - v
-            v = binary_search(k+1, len(numbers)-1)
-            if v > 0:
-                return k+1, v+1
+            j = binary_search(i+1, len(numbers)-1)
+            if j > 0:
+                return i+1, j+1
         
