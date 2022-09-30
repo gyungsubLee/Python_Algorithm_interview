@@ -955,12 +955,13 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/queue-reconstruction-by-height/">키에 따른 대기열 재구성</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./18-그리디/406-queue-reconstruction-by-height/풀이1(heapq).py">풀이1(heapq)</a>, 
+      <a href="./18-그리디/406-queue-reconstruction-by-height/풀이2(lambda).py">풀이2(lambda)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./18-그리디/406-queue-reconstruction-by-height/NOTES.md">Notes</a>
     </td>
   </tr>
 
