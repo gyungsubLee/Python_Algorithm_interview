@@ -917,7 +917,7 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/minimum-window-substring/">부분 문자열이 포함된 최소 윈도우</a></td>
+      <a href="https://leetcode.com/problems/minimum-window-substring/">🤔 부분 문자열이 포함된 최소 윈도우</a></td>
     <td>
       <a href="./17-슬라이싱윈도우/76-minimum-window-substring/풀이1(투포인터, 슬라이딩윈도우).py">풀이1(투포인터, 슬라이딩윈도우)</a>, 
       <a href="./17-슬라이싱윈도우/76-minimum-window-substring/풀이2(counter).py">풀이2(counter)</a>
@@ -929,12 +929,12 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/longest-repeating-character-replacement">가장 긴 반복 문자 대체</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./17-슬라이싱윈도우/424-longest-repeating-character-replacement/풀이1(투포인터,슬라이딩윈도우,counter).py">풀이1(투포인터,슬라이딩윈도우,counter)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./17-슬라이싱윈도우/424-longest-repeating-character-replacement/NOTES.md">Notes</a>
     </td>
   </tr>
 
