@@ -978,12 +978,13 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/gas-station/">주유소</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./18-그리디/134-gas-station/풀이1(for).py">풀이1(for)</a>, 
+      <a href="./18-그리디/134-gas-station/풀이2(for).py">풀이2(for)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./18-그리디/134-gas-station/NOTES.md">Notes</a>
     </td>
   </tr>
 
