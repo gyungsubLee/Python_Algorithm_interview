@@ -967,12 +967,12 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/task-scheduler/">🤔 태스크 스케줄러</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./18-그리디/621-task-scheduler/풀이1(우선순위큐).py">풀이1(우선순위큐)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./18-그리디/621-task-scheduler/NOTES.md">Notes</a>
     </td>
   </tr>
 
