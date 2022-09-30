@@ -990,7 +990,7 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/assign-cookies"></a></td>
+      <a href="https://leetcode.com/problems/assign-cookies">🤔 쿠키 부여</a></td>
     <td>
       <a href="./18-그리디/455-assign-cookies/풀이1(그리디).py">풀이1(그리디)</a>, 
       <a href="./18-그리디/455-assign-cookies/풀이2(이진검색).py">풀이2(이진검색)</a>
