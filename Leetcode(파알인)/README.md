@@ -873,6 +873,71 @@
   </tr>
 
 
+
+<tr>
+    <td rowspan="2"><a href="">샘플</a></td>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  
+<tr>
+    <td rowspan="3"><a href="">슬라이딩 윈도우</a></td>
+    <td>
+      <a href="https://leetcode.com/problems/sliding-window-maximum/">🤔 최대 슬라이딩 윈도우</a></td>
+    <td>
+      <a href="./17-슬라이싱윈도우/239-sliding-window-maximum/풀이1(for, max).py">풀이1(for, max)</a>, 
+      <a href="./17-슬라이싱윈도우/239-sliding-window-maximum/풀이2(deque).py">풀이2(deque)</a>
+    </td>
+    <td>
+      <a href="./17-슬라이싱윈도우/239-sliding-window-maximum/NOTES.md">Notes</a>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/minimum-window-substring/">부분 문자열이 포함된 최소 윈도우</a></td>
+    <td>
+      <a href="./17-슬라이싱윈도우/76-minimum-window-substring/풀이1(투포인터, 슬라이딩윈도우).py">풀이1(투포인터, 슬라이딩윈도우)</a>, 
+      <a href="./17-슬라이싱윈도우/76-minimum-window-substring/풀이2(counter).py">풀이2(counter)</a>
+    </td>
+    <td>
+      <a href="./17-슬라이싱윈도우/76-minimum-window-substring/NOTES.md">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
   
 
 
