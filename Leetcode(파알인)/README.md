@@ -826,7 +826,8 @@
     <td>
       <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">🤔 회전 정렬된 배열 검색</a></td>
     <td>
-      <a href="./15-이진검색/33-search-in-rotated-sorted-array/풀이1(피벗,이진검색).py">풀이1(피벗,이진검색)</a>
+      <a href="./15-이진검색/33-search-in-rotated-sorted-array/풀이1(피벗,이진검색).py">풀이1(피벗,이진검색)</a>, 
+      <a href="./15-이진검색/33-search-in-rotated-sorted-array/풀이2(투포인터).py">풀이2(투포인터)</a>
     </td>
     <td>
       <a href="./15-이진검색/33-search-in-rotated-sorted-array/NOTES.md">Notes</a>
