@@ -69,7 +69,7 @@ class Solution(object):
 <br/>
 
 # 풀이2(재귀)
-책에 풀이 위와 논리구조는 비슷함
+책 풀이 위와 동일
 
 
 ```python

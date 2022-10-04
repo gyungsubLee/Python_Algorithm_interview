@@ -17,9 +17,3 @@ class Solution(object):
                 ret.extend(eval(str(x)+c+str(y)) for x in l for y in r)
         m[input] = ret
         return ret
-
-
-expression = "2*3-4*5"
-a = Solution()
-a.diffWaysToCompute(expression)
-        
