@@ -1,20 +1,22 @@
-class Solution(object):
-    def diffWaysToCompute(self, input):
-        m = {}
-        return self.dfs(input, m)
-        
-    def dfs(self, input, m):
-        if input in m:
-            return m[input]
+from typing import List
+
+class Solution:
+    def diffWaysToCompute(self, input: str) -> List[int]:
+        def compute(left, right, op):
+            results = []
+            for l in left:
+                for r in right:
+                    results.append(eval(str(l) + op + str(r)))
+            return results
+
         if input.isdigit():
-            m[input] = int(input)
             return [int(input)]
-        ret = []
-        for i, c in enumerate(input):
-            if c in "+-*":
-                l = self.diffWaysToCompute(input[:i])
-                r = self.diffWaysToCompute(input[i+1:])
-                ret.extend(eval(str(x)+c+str(y)) for x in l for y in r)
-        m[input] = ret
-        return ret
-        
+
+        results = []
+        for index, value in enumerate(input):
+            if value in "-+*":
+                left = self.diffWaysToCompute(input[:index])
+                right = self.diffWaysToCompute(input[index + 1:])
+
+                results.extend(compute(left, right, value))
+        return results
