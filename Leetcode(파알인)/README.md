@@ -1006,7 +1006,7 @@
       <a href="https://leetcode.com/problems/majority-element">과반수 엘리먼트</a></td>
     <td>
       <a href="./19-분할정복/169-majority-element/풀이1(dict).py">풀이1(dict)</a>, 
-      <a href="./19-분할정복/169-majority-element/풀이2(병합정렬-재귀).py">풀이2(병할정렬-재귀)</a>, 
+      <a href="./19-분할정복/169-majority-element/풀이2(병합정렬-재귀).py">풀이2(병합정렬-재귀)</a>, 
       <a href="./19-분할정복/169-majority-element/풀이3(sorted).py">풀이3(sorted)</a>
     </td>
     <td>
@@ -1015,14 +1015,16 @@
   </tr>
 
 
+
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/different-ways-to-add-parentheses/">괄호를 삽입하는 여러가지 방법</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./19-분할정복/241-different-ways-to-add-parentheses/풀이1(재귀, 메모제이션).py">풀이1(재귀, 메모제이션)</a>, 
+      <a href="./19-분할정복/241-different-ways-to-add-parentheses/풀이2(재귀).py">풀이2(재귀)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./19-분할정복/241-different-ways-to-add-parentheses/NOTES.md">Notes</a>
     </td>
   </tr>
 
