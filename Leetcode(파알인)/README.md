@@ -1000,6 +1000,59 @@
     </td>
   </tr>
 
+<tr>
+    <td rowspan="2"><a href="">🤔 분할 정복</a></td>
+    <td>
+      <a href="https://leetcode.com/problems/majority-element">과반수 엘리먼트</a></td>
+    <td>
+      <a href="./19-분할정복/169-majority-element/풀이1(dict).py">풀이1(dict)</a>, 
+      <a href="./19-분할정복/169-majority-element/풀이2(병할정렬-재귀).py">풀이2(병할정렬-재귀)</a>, 
+      <a href="./19-분할정복/169-majority-element/풀이3(sorted).py">풀이3(sorted)</a>
+    </td>
+    <td>
+      <a href="./19-분할정복/169-majority-element/NOTES.md">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td rowspan="2"><a href="">샘플</a></td>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+
 
 <tr>
     <td rowspan="2"><a href="">샘플</a></td>
