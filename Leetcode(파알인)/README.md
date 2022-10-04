@@ -1001,12 +1001,12 @@
   </tr>
 
 <tr>
-    <td rowspan="2"><a href="">🤔 분할 정복</a></td>
+    <td rowspan="2"><a href="https://velog.io/@dltjq2323/%EB%B6%84%ED%95%A0-%EC%A0%95%EB%B3%B5%EB%B3%91%ED%95%A9-%EC%A0%95%EB%A0%AC">분할 정복</a></td>
     <td>
       <a href="https://leetcode.com/problems/majority-element">과반수 엘리먼트</a></td>
     <td>
       <a href="./19-분할정복/169-majority-element/풀이1(dict).py">풀이1(dict)</a>, 
-      <a href="./19-분할정복/169-majority-element/풀이2(병할정렬-재귀).py">풀이2(병할정렬-재귀)</a>, 
+      <a href="./19-분할정복/169-majority-element/풀이2(병합정렬-재귀).py">풀이2(병할정렬-재귀)</a>, 
       <a href="./19-분할정복/169-majority-element/풀이3(sorted).py">풀이3(sorted)</a>
     </td>
     <td>
