@@ -1,35 +1,28 @@
 # 👉 파이썬 알고리즘 인터뷰 정리본
 
 
-<img src="../이미지/파알인-표지.jpg" width=60% />
+
+
 
 <br>
 
-구매 링크)
-- [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791189909178&orderClick=LEa&Kc=)
-- [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=245495826)
+구매 링크 - [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791189909178&orderClick=LEa&Kc=), [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=245495826)
 
 
-- [파알인-github](https://github.com/onlybooks/algorithm-interview)
+[파알인-github](https://github.com/onlybooks/algorithm-interview)
 
-<br>
 
-- [빅오, 시간복잡도](https://velog.io/@dltjq2323/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%ED%9A%A8%EC%9C%A8%EC%84%B1%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84-%EA%B3%B5%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84-%EB%B9%85%EC%98%A4)
 
 <br>
 
-# 자료구조
-- [배열](https://velog.io/@dltjq2323/%EB%B0%B0%EC%97%B4)
-- [연결리스트](https://velog.io/@dltjq2323/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8Linked-List)
-- [스택](https://velog.io/@dltjq2323/%EC%8A%A4%ED%83%9DStack)
-- [큐](https://velog.io/@dltjq2323/%ED%81%90Queue)
-- [해시테이블](https://velog.io/@dltjq2323/%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94Hash-table)
-- []()
-- []()
 
-<br><br>
+<img src="https://user-images.githubusercontent.com/95308384/194082748-15cb2f0f-2cd0-47b4-8f28-164700b92ebe.png" width=60% />
+
+
+<br>
 
 # ✍️ 문제
+
 
 <table>
   <tr>
@@ -82,11 +75,18 @@
   </tr>
 
 
+
+
+
   <tr>
-      <td rowspan="6" href="https://velog.io/@dltjq2323/%EB%B0%B0%EC%97%B4">배열</td>
+      <td rowspan="6" ><a href="https://velog.io/@dltjq2323/%EB%B0%B0%EC%97%B4">배열</a></td>
       <td><a href="https://leetcode.com/problems/two-sum/submissions/">두 수의 합</a></td>
-      <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B41(%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4).py">풀이1(브루트포스)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B42(in%ED%83%90%EC%83%89).py">풀이2(in탐색)</a>, <a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B43-2(%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC).py">풀이3(딕셔너리)</a>, <a href="https://github.com/gyungsubLee/Algorithm-with-python-/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/%ED%92%80%EC%9D%B44(%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0).py">풀이4(투포인트)</a></td>
-      <td><a href="https://github.com/gyungsubLee/Algorithm-baekjoon/blob/main/Leetcode(%ED%8C%8C%EC%95%8C%EC%9D%B8)/1-two-sum/NOTES.md">Notes</a></td>
+      <td>
+      <a href="">풀이1(브루트포스)</a>, 
+      <a href="">풀이2(in탐색)</a>, 
+      <a href="">풀이3(딕셔너리)</a>, 
+      <a href="">풀이4(투포인트)</a></td>
+      <td><a href="">Notes</a></td>
   </tr>
 
   <tr>
@@ -151,8 +151,10 @@
 
 
 
+
+
   <tr>
-    <td rowspan="7" href="">연결리스트</td>
+    <td rowspan="7"><a href="https://velog.io/@dltjq2323/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8Linked-List">연결리스트</a></td>
     <td><a href="https://leetcode.com/problems/palindrome-linked-list/submissions/">팰린드롬 연결리스트</a></td>
       <td>
         <a href="">풀이1(배열)</a>, 
@@ -243,10 +245,8 @@
 
 
 
-
-
   <tr>
-    <td rowspan="3" href="">스택</td>
+    <td rowspan="3"><a href="https://velog.io/@dltjq2323/%EC%8A%A4%ED%83%9DStack">스택</a></td>
     <td><a href="https://leetcode.com/problems/valid-parentheses/">유효한 괄호</a></td>
       <td>
         <a href="">풀이1</a>, 
@@ -288,7 +288,7 @@
 
 
   <tr>
-    <td rowspan="3" href="">큐</td>
+    <td rowspan="3"><a href="https://velog.io/@dltjq2323/%ED%81%90Queue">큐</a></td>
     <td><a href="https://leetcode.com/problems/implement-stack-using-queues/submissions/">큐를 이용한 스택 구현</a></td>
       <td>
         <a href="">풀이1(deque)</a>
@@ -346,7 +346,7 @@
 
 
   <tr>
-    <td rowspan="4" href="https://velog.io/@dltjq2323/%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94Hash-table">해시테이블</td>
+    <td rowspan="4"><a href="https://velog.io/@dltjq2323/%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94Hash-table" >해시테이블</a></td>
       <td>
         <a href="https://leetcode.com/problems/design-hashmap/submissions/">해시맵 디자인</a></td>
       <td>

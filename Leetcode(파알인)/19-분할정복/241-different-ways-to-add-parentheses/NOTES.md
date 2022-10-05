@@ -22,6 +22,8 @@ for i, c in enumerate(input):
  ret.extend(eval(str(x)+c+str(y)) for x in l for y in r)
  ```
 
+ > eval(): 인자로  문자열 식을 받아 결과값을  return 함.  ex) eval("1+2") -> 3
+
 
 ### 조합
 
