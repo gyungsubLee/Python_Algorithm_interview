@@ -5,27 +5,21 @@
 #         self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        fast = slow = head
-        
+        rev = None
+        slow = fast = head
+        # 런너를 이용해 역순 연결리스트 구성
         while fast and fast.next:
             fast = fast.next.next
-            slow = slow.next
-        
-        prev = None
-        while slow:
-            tmp = slow.next
-            slow.next = prev
-            prev = slow
-            slow = tmp
+            rev, rev.next, slow = slow, rev, slow.next
             
-    
-        left, right = head, prev
-        while right:
-            if left.val != right.val:
-                return False
-            left = left.next
-            right = right.next
-        return True
+        if fast:
+            slow = slow.next
+            
+        # 팰린드롬 여부 확인
+        while rev and rev.val == slow.val:
+            slow, rev = slow.next, rev.next
+            
+        return not rev
     
             
             
