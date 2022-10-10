@@ -1073,12 +1073,14 @@
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/house-robber">집 도둑</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./20-다이나믹프로그래밍/198-house-robber/풀이1(브루트포스).py">풀이1(브루트포스)</a>, 
+      <a href="./20-다이나믹프로그래밍/198-house-robber/풀이2(타블레이션).py">풀이(타블레이션[상향식])</a>, 
+      <a href="./20-다이나믹프로그래밍/198-house-robber/풀이3(dp).py">풀이3(dp)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./20-다이나믹프로그래밍/198-house-robber/NOTES.md">Notes</a>
     </td>
   </tr>
 
