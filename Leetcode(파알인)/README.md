@@ -1049,18 +1049,19 @@
 
   <tr>
     <td>
-      <a href="">최대 서브 배열</a></td>
+      <a href="https://leetcode.com/problems/maximum-subarray/">최대 서브 배열</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="/20-다이나믹프로그래밍/53-maximum-subarray/풀이1(메모제이션).py">풀이1(메모제이션)</a>, 
+      <a href="/20-다이나믹프로그래밍/53-maximum-subarray/풀이2(카데인 알고리즘).py">풀이2(카데인 알고리즘)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="/20-다이나믹프로그래밍/53-maximum-subarray/NOTES.md">Notes</a>
     </td>
   </tr>
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="">계단 오르기</a></td>
     <td>
       <a href="">풀이1</a>
     </td>

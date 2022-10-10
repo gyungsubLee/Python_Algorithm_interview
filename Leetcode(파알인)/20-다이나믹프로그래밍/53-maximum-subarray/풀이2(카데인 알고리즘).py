@@ -1,3 +1,5 @@
+# 시간복잡도: O(n)
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         best_sum =  -sys.maxsize
