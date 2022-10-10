@@ -1031,14 +1031,18 @@
 
 
   <tr>
-    <td rowspan="2"><a href="">샘플</a></td>
+    <td rowspan="4"><a href="">🤔 다이나믹 프로그래밍</a></td>
     <td>
-      <a href=""></a></td>
+      <a href="https://leetcode.com/problems/fibonacci-number/">피보나치 수</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./20-다이나믹프로그래밍/509-fibonacci-number/풀이1(브루트포스).py">풀이1(브루트포스)</a>, 
+      <a href="./20-다이나믹프로그래밍/509-fibonacci-number/풀이2(메모제이션).py">풀이2(메모제이션)</a>, 
+      <a href="./20-다이나믹프로그래밍/509-fibonacci-number/풀이3(반복, 상향식).py">풀이3(반복, 상향식)</a>, 
+      <a href="./20-다이나믹프로그래밍/509-fibonacci-number/풀이4(두변수).py">풀이4(두변수)</a>, 
+      <a href="./20-다이나믹프로그래밍/509-fibonacci-number/풀이5(넘파이).py">풀이5(넘파이)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./20-다이나믹프로그래밍/509-fibonacci-number/NOTES.md">Notes</a>
     </td>
   </tr>
 
@@ -1054,7 +1058,27 @@
     </td>
   </tr>
 
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
 
+  <tr>
+    <td>
+      <a href=""></a></td>
+    <td>
+      <a href="">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
 
 <tr>
     <td rowspan="2"><a href="">샘플</a></td>
