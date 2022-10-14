@@ -105,12 +105,11 @@
   <tr>
     <td><a href="https://leetcode.com/problems/3sum/"> 세 수의 합</a></td>
       <td>
-        <a href="">풀이1(브루트포스)-X</a>, 
-        <a href="">풀이2(투포인터)</a>
+        <a href="./02-배열/15-3sum/풀이1(브루트포스).py">풀이1(브루트포스)X</a>, 
+        <a href="./02-배열/15-3sum/풀이2(투포인터).py">풀이2(투포인터)</a>
       </td>
       <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
+        <a href="./02-배열/15-3sum/NOTES.md">Notes</a>
       </td>
   </tr>
 
@@ -1031,7 +1030,7 @@
 
 
   <tr>
-    <td rowspan="4"><a href="">🤔 다이나믹 프로그래밍</a></td>
+    <td rowspan="4"><a href="https://velog.io/@dltjq2323/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8DDynamic-programming">다이나믹 프로그래밍</a></td>
     <td>
       <a href="https://leetcode.com/problems/fibonacci-number/">피보나치 수</a></td>
     <td>
