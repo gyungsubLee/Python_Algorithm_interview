@@ -408,92 +408,99 @@
     <td>
         <a href="https://leetcode.com/problems/number-of-islands/">섬의 개수 </a></td>
       <td>
-        <a href="">풀이1-1(DFS-재귀)</a>, 
-        <a href="">풀이1-2(for문)</a>, 
-        <a href="">풀이2(DFS-stack)</a>
+        <a href="./08-그래프(DFS,BFS)/200-number-of-islands/풀이1-1(DFS-재귀).py">풀이1-1(DFS-재귀)</a>, 
+        <a href="./08-그래프(DFS,BFS)/200-number-of-islands/풀이1-2(for문).py">풀이1-2(for문)</a>, 
+        <a href="./08-그래프(DFS,BFS)/200-number-of-islands/풀이1-3(함수합침).py">풀이1-3(함수합침)</a>, 
+        <a href="./08-그래프(DFS,BFS)/200-number-of-islands/풀이2(Stack).py">풀이2(DFS-stack)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./08-그래프(DFS,BFS)/200-number-of-islands/NOTES.md">Notes</a>
       </td>
   </tr>
   <tr>
     <td>
       <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">전화번호 문자 조합</a></td>
     <td>
-      <a href="">풀이1(DFS-stack)</a>, 
-        <a href="">풀이2-1(DFS-재귀)</a>, 
-        <a href="">풀이2-2(함수합침)</a>
+      <a href="./08-그래프(DFS,BFS)/17-letter-combinations-of-a-phone-number/풀이1(DFS-stack).py">풀이1(DFS-stack)</a>, 
+        <a href="./08-그래프(DFS,BFS)/17-letter-combinations-of-a-phone-number/풀이2-1(DFS-재귀).py">풀이2-1(DFS-재귀)</a>, 
+        <a href="./08-그래프(DFS,BFS)/17-letter-combinations-of-a-phone-number/풀이2-2(함수합침).py">풀이2-2(함수합침)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./08-그래프(DFS,BFS)/17-letter-combinations-of-a-phone-number/NOTES.md">Notes</a>
     </td>
   </tr>
+  
   <tr>
     <td>
       <a href="https://leetcode.com/problems/permutations/">순열</a></td>
     <td>
-      <a href="">풀이1(DFS-재귀)</a>, 
-      <a href="">풀이2(DFS-stack)</a>
+      <a href="./08-그래프(DFS,BFS)/46-permutations/풀이1-1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
+      <a href="./08-그래프(DFS,BFS)/46-permutations/풀이1-2(method-func).py">풀이1-2(method-func)</a>, 
+      <a href="./08-그래프(DFS,BFS)/46-permutations/풀이2(DFS-stack).py">풀이2(DFS-stack)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./08-그래프(DFS,BFS)/46-permutations/NOTES.md">Notes</a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://leetcode.com/problems/combinations/">조합</a></td>
     <td>
-      <a href="">풀이1-1(DFS-재귀)</a>, 
-      <a href="">풀이1-2(DFS-재귀)</a>, 
-      <a href="">풀이1-3(method-func)</a>, 
-      <a href="">풀이2(DFS-Stack)</a>
+      <a href="./08-그래프(DFS,BFS)/77-combinations/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
+      <a href="./08-그래프(DFS,BFS)/77-combinations/풀이2(DFS-Stack).py">풀이2(DFS-Stack)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./08-그래프(DFS,BFS)/77-combinations/NOTES.md">Notes</a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://leetcode.com/problems/combination-sum/">조합의 합</a></td>
     <td>
-      <a href="">풀이1(DFS-재귀)</a>, 
-      <a href="">풀이1(DFS-Stack)</a>
+      <a href="./08-그래프(DFS,BFS)/39-combination-sum/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
+      <a href="./08-그래프(DFS,BFS)/39-combination-sum/풀이1(DFS-Stack).py">풀이1(DFS-Stack)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./08-그래프(DFS,BFS)/39-combination-sum/NOTES.md">Notes</a>
     </td>
   </tr>
+
   <tr>
     <td>
       <a href="https://leetcode.com/problems/subsets/">부분집합</a></td>
     <td>
-      <a href="">풀이1(DFS-재귀)</a>, 
-      <a href="">풀이1(DFS-Stack)</a>
+      <a href="./08-그래프(DFS,BFS)/78-subsets/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
+      <a href="./08-그래프(DFS,BFS)/78-subsets/풀이1(DFS-Stack).py">풀이1(DFS-Stack)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./08-그래프(DFS,BFS)/78-subsets/NOTES.md">Notes</a>
     </td>
   </tr>
+  
   <tr>
     <td>
       <a href="https://leetcode.com/problems/reconstruct-itinerary/">🤔 일정 재구성</a></td>
     <td>
-      <a href="">풀이1-1(DFS-재귀)</a>,
-      <a href="">풀이1-2(최적화-reverse)</a>, 
-      <a href="">풀이1(DFS-Stack)</a>
+      <a href="./08-그래프(DFS,BFS)/332-reconstruct-itinerary/풀이1-1(DFS-재귀.py">풀이1-1(DFS-재귀)</a>,  
+      <a href="./08-그래프(DFS,BFS)/332-reconstruct-itinerary/풀이1-2(최적화-reverse).py">풀이1-2(최적화-reverse, 슬라이싱)</a>,  
+      <a href="./08-그래프(DFS,BFS)/332-reconstruct-itinerary/풀이2(DFS-Stack).py">풀이2(DFS-Stack)</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./08-그래프(DFS,BFS)/332-reconstruct-itinerary/NOTES.md">Notes</a>
     </td>
   </tr>
+
+
   <tr>
     <td>
       <a href="https://leetcode.com/problems/course-schedule/">🤔 코스 스케줄</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./08-그래프(DFS,BFS)/207-course-schedule/풀이1(DFS-재귀)[youtube].py">풀이1(DFS-재귀)[youtube]</a>, 
+      <a href="./08-그래프(DFS,BFS)/207-course-schedule/풀이2(DFS-재귀)[leetcode].py">풀이2(DFS-재귀)[leetcode]</a>, 
+      <a href="./08-그래프(DFS,BFS)/207-course-schedule/풀이3(DFS-재귀)[파알인].py">풀이3(DFS-재귀)[파알인]</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./08-그래프(DFS,BFS)/207-course-schedule/NOTES.md">Notes</a>
     </td>
   </tr>
 
