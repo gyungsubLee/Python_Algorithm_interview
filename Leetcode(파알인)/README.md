@@ -223,7 +223,8 @@
   <tr>
     <td><a href="https://leetcode.com/problems/reverse-linked-list-ii/">역순 연결리스트II</a></td>
       <td>
-        <a href="./03-연결리스트/92-reverse-linked-list-ii/내풀이(LL-L,투포인터).py">내풀이(LL-L,투포인터)(</a>
+        <a href="./03-연결리스트/92-reverse-linked-list-ii/풀이1(LL-L,투포인터).py">풀이1(LL-L,투포인터)</a>, 
+        <a href="./03-연결리스트/92-reverse-linked-list-ii/풀이2(LL,reverse).py">😗 풀이2(LL,reverse)</a>
       </td>
       <td>
         <a href="./03-연결리스트/92-reverse-linked-list-ii/NOTES.md">Notes</a>
