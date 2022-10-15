@@ -240,36 +240,33 @@
     <td rowspan="3"><a href="https://velog.io/@dltjq2323/%EC%8A%A4%ED%83%9DStack">스택</a></td>
     <td><a href="https://leetcode.com/problems/valid-parentheses/">유효한 괄호</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="./04-스택/20-valid-parentheses/풀이1(map,list).py">풀이1(map,list)</a>, 
+        <a href="./04-스택/20-valid-parentheses/풀이2(replace).py">풀이2(replace)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./04-스택/20-valid-parentheses/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/remove-duplicate-letters/">중복문자제거</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="./04-스택/316-remove-duplicate-letters/풀이1(재귀).py">풀이1(재귀)</a>, 
+        <a href="./04-스택/316-remove-duplicate-letters/풀이2(stack).py">풀이2(stack)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./04-스택/316-remove-duplicate-letters/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/daily-temperatures/">일일온도</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="./04-스택/739-daily-temperatures/풀이1(브루트포스).py">풀이1(브루트포스)-시간초과</a>, 
+        <a href="./04-스택/739-daily-temperatures/풀이2(Stack).py">풀이2(Stack)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./04-스택/739-daily-temperatures/NOTES.md">Notes</a>
       </td>
   </tr>
 
