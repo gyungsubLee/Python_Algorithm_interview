@@ -4,34 +4,29 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def toList(self,  head: Optional[ListNode])->List[int]:
-        lst:List = []
-        while head:
-            lst.append(head.val)
-            head = head.next
-        return lst
-    
-    def swapInTwoPointer(self, left:int, right:int, lst:List[int])->List[int]:
-        l,r = left-1, right-1
-        while l < r:
-            lst[l], lst[r] = lst[r], lst[l]
-            l+=1
-            r-=1
-        return lst
-    
-    def toLinkedList(self, lst:List[int])->Optional[ListNode]:
-        root = head = ListNode()
-        for n in lst:
-            head.next = ListNode(n)
-            head = head.next
-        return root.next
-            
-    
-    def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
-        # LinkedList -> List
-        lst = self.toList(head)
-        
-        if len(lst) <2:
+    def reverseBetween(self,  head: Optional[ListNode], left:int, right:int)->List[int]:
+        # 예외처리
+        if left == right:
             return head
         
-        return self.toLinkedList(self.swapInTwoPointer(left, right, lst))
+        dummyNode = ListNode(0)
+        dummyNode.next = head
+        pre = dummyNode
+        
+        # left만큼 노드 전진
+        for i in range(left - 1):
+            pre = pre.next
+        
+        # [left, right] nodes 역순 재배치
+        reverse = None
+        cur = pre.next
+        for i in range(right - left + 1):
+            next = cur.next
+            cur.next = reverse
+            reverse = cur
+            cur = next
+
+        pre.next.next = cur
+        pre.next = reverse
+
+        return dummyNode.next
