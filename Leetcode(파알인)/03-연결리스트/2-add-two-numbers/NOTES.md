@@ -88,6 +88,7 @@ return node.next
 ```
 dummy 데이터 다음(.next), 실제 데이터 부분만 추출한다.
 
+<br/>
 
 ### 2. 각 Node의 value 더하고 node 넘기기
 
@@ -104,11 +105,15 @@ while l1 or l2 or carry:
         l2 = l2.next
 ```
 
+<br/>
+
 ### 3. divmod()를 통해 자릿수(몫), 값(나머지) 계산
 
 ```python
 carry, val = divmod(sum + carry, 10)
 ```
+
+<br/>
 
 ### 4. Node의 value 넣고 넘기기
 

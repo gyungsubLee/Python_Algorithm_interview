@@ -89,7 +89,6 @@
       <a href="./02-배열/01-two-sum/풀이4(투포인트).py">풀이4(투포인트)</a></td>
       <td><a href="./02-배열/01-two-sum/NOTES.md">Notes</a></td>
   </tr>
-
   <tr>
       <td><a href="https://leetcode.com/problems/trapping-rain-water/">빗물 트래핑</a></td>
       <td>
@@ -152,88 +151,82 @@
 
   <tr>
     <td rowspan="7"><a href="https://velog.io/@dltjq2323/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8Linked-List">연결리스트</a></td>
-    <td><a href="https://leetcode.com/problems/palindrome-linked-list/submissions/">팰린드롬 연결리스트</a></td>
+    <td><a href="https://leetcode.com/problems/palindrome-linked-list/">팰린드롬 연결리스트</a></td>
       <td>
-        <a href="">풀이1(배열)</a>, 
-        <a href="">풀이2(데큐)</a>, 
-        <a href="">🤔 풀이3(런너)</a>
+        <a href="./03-연결리스트/234-palindrome-linked-list/풀이1(Array).py">풀이1(Array)</a>, 
+        <a href="./03-연결리스트/234-palindrome-linked-list/풀이2(Deque).py">풀이2(Deque)</a>,
+        <a href="./03-연결리스트/234-palindrome-linked-list/풀이3(투포인터).py">풀이3(투포인터)</a>, 
+        <a href="./03-연결리스트/234-palindrome-linked-list/풀이4-1(런너).py">🤔 풀이4-1(런너)</a>, 
+        <a href="./03-연결리스트/234-palindrome-linked-list/풀이4-2(런너).py">🤔 풀이4-2(런너)</a>, 
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./03-연결리스트/234-palindrome-linked-list/NOTES.md">Notes</a>
       </td>
   </tr>
   
   <tr>
     <td><a href="https://leetcode.com/problems/merge-two-sorted-lists/"> 두 정렬 리스트 병합</a></td>
       <td>
-        <a href="">풀이1(반복)</a>, 
-        <a href="">🤔풀이2(재귀)</a>
+        <a href="./03-연결리스트/21-merge-two-sorted-lists/풀이1(dummy).py">풀이1(dummy)</a>, 
+        <a href="./03-연결리스트/21-merge-two-sorted-lists/풀이1(재귀).py">😗 풀이2(재귀)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./03-연결리스트/21-merge-two-sorted-lists/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/reverse-linked-list/">역순 연결리스트</a></td>
       <td>
-        <a href="">풀이1(반복)</a>, 
-        <a href="">🤔 풀이2(재귀)</a>
+        <a href="./03-연결리스트/206-reverse-linked-list/풀이1(반복).py">풀이1(반복)</a>, 
+        <a href="./03-연결리스트/206-reverse-linked-list/풀이2(재귀).py">😗 풀이2(재귀)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./03-연결리스트/206-reverse-linked-list/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/add-two-numbers/">두 수의 덧셈</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="./03-연결리스트/2-add-two-numbers/풀이1-1(역순-반복, LL-L).py">풀이1-1(역순-반복, LL-L)</a>, 
+        <a href="./03-연결리스트/2-add-two-numbers/풀이1-2(역순-재귀, LL-L).py">풀이1-2(역순-재귀, LL-L)</a>, 
+        <a href="./03-연결리스트/2-add-two-numbers/풀이2(전가산기).py">풀이2(전가산기)</a>
       </td>
       <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
+        <a href="./03-연결리스트/2-add-two-numbers/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/swap-nodes-in-pairs/">페어의 노드 스왑</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="./03-연결리스트/24-swap-nodes-in-pairs/풀이1(값만변경).py">풀이1(값만변경</a>, 
+        <a href="./03-연결리스트/24-swap-nodes-in-pairs/풀이2(반복).py">풀이2(반복)</a>, 
+        <a href="./03-연결리스트/24-swap-nodes-in-pairs/풀이3(재귀).py">풀이3(재귀)</a>
       </td>
       <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
+        <a href="./03-연결리스트/24-swap-nodes-in-pairs/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/odd-even-linked-list/">홀짝 연결리스트</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="./03-연결리스트/328-odd-even-linked-list/풀이1(반복)">풀이1(반복)</a>
       </td>
       <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
+        <a href="./03-연결리스트/328-odd-even-linked-list/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/reverse-linked-list-ii/">역순 연결리스트II</a></td>
       <td>
-        <a href="">풀이1</a>, 
-        <a href="">풀이2</a>, 
-        <a href="">풀이3</a>
+        <a href="./03-연결리스트/92-reverse-linked-list-ii/내풀이(LL-L,투포인터).py">내풀이(LL-L,투포인터)(</a>
       </td>
       <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
+        <a href="./03-연결리스트/92-reverse-linked-list-ii/NOTES.md">Notes</a>
       </td>
   </tr>
 
@@ -256,7 +249,7 @@
   </tr>
 
   <tr>
-    <td><a href="https://leetcode.com/problems/remove-duplicate-letters/submissions/">중복문자제거</a></td>
+    <td><a href="https://leetcode.com/problems/remove-duplicate-letters/">중복문자제거</a></td>
       <td>
         <a href="">풀이1</a>, 
         <a href="">풀이2</a>, 
@@ -286,7 +279,7 @@
 
   <tr>
     <td rowspan="3"><a href="https://velog.io/@dltjq2323/%ED%81%90Queue">큐</a></td>
-    <td><a href="https://leetcode.com/problems/implement-stack-using-queues/submissions/">큐를 이용한 스택 구현</a></td>
+    <td><a href="https://leetcode.com/problems/implement-stack-using-queues/">큐를 이용한 스택 구현</a></td>
       <td>
         <a href="">풀이1(deque)</a>
       </td>
@@ -318,7 +311,7 @@
 
   
 <tr>
-    <td rowspan="2" href="">데크(deque)</td>
+    <td rowspan="2"><a href="https://velog.io/@dltjq2323/Deque%EB%8D%B0%ED%81%90">데크(deque)</a></td>
       <td>
         <a href="https://leetcode.com/problems/design-circular-deque/">원형 데크 디자인</a></td>
       <td>
@@ -342,10 +335,12 @@
 
 
 
+
+
   <tr>
     <td rowspan="4"><a href="https://velog.io/@dltjq2323/%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94Hash-table" >해시테이블</a></td>
       <td>
-        <a href="https://leetcode.com/problems/design-hashmap/submissions/">해시맵 디자인</a></td>
+        <a href="https://leetcode.com/problems/design-hashmap/">해시맵 디자인</a></td>
       <td>
         <a href="">풀이1(연결리스트)</a>
       </td>
@@ -353,7 +348,6 @@
         <a href="">Notes</a>
       </td>
   </tr>
-
   <tr>
     <td>
         <a href="https://leetcode.com/problems/jewels-and-stones/">보석과 돌</a></td>
@@ -364,7 +358,6 @@
         <a href="">Notes</a>
       </td>
   </tr>
-
   <tr>
     <td>
         <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">중복 문자 없는 가장 긴 부분 문자열</a></td>
@@ -389,10 +382,13 @@
 
 
 
+
+
+
   <tr>
-    <td rowspan="8" href="">그래프(BFS, DFS)</td>
+    <td rowspan="8"><a href="https://velog.io/@dltjq2323/%EA%B7%B8%EB%9E%98%ED%94%84-%EC%88%9C%ED%9A%8CDFS-BFS"">그래프(BFS, DFS)</a></td>
     <td>
-        <a href="https://leetcode.com/problems/number-of-islands/submissions/">섬의 개수 </a></td>
+        <a href="https://leetcode.com/problems/number-of-islands/">섬의 개수 </a></td>
       <td>
         <a href="">풀이1-1(DFS-재귀)</a>, 
         <a href="">풀이1-2(for문)</a>, 
@@ -402,8 +398,6 @@
         <a href="">Notes</a>
       </td>
   </tr>
-
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">전화번호 문자 조합</a></td>
@@ -416,8 +410,6 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/permutations/">순열</a></td>
@@ -429,11 +421,9 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
-
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/combinations/submissions/">조합</a></td>
+      <a href="https://leetcode.com/problems/combinations/">조합</a></td>
     <td>
       <a href="">풀이1-1(DFS-재귀)</a>, 
       <a href="">풀이1-2(DFS-재귀)</a>, 
@@ -444,10 +434,9 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/combination-sum/submissions/">조합의 합</a></td>
+      <a href="https://leetcode.com/problems/combination-sum/">조합의 합</a></td>
     <td>
       <a href="">풀이1(DFS-재귀)</a>, 
       <a href="">풀이1(DFS-Stack)</a>
@@ -456,8 +445,6 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/subsets/">부분집합</a></td>
@@ -469,8 +456,6 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/reconstruct-itinerary/">🤔 일정 재구성</a></td>
@@ -483,7 +468,6 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/course-schedule/">🤔 코스 스케줄</a></td>
@@ -722,8 +706,16 @@
     </td>
   </tr>
 
-  tr>
-    <td rowspan="7"><a href="">정렬</a></td>
+
+
+
+
+
+
+
+
+  <tr>
+    <td rowspan="7"><a href="">🤔 정렬</a></td>
     <td>
       <a href="https://leetcode.com/problems/sort-list/">리스트 정렬</a></td>
     <td>
@@ -805,6 +797,11 @@
   </tr>
 
 
+
+
+
+
+
 <tr>
     <td rowspan="5"><a href="">🤔 이진 검색</a></td>
     <td>
@@ -871,6 +868,9 @@
 
 
 
+
+
+
 <tr>
     <td rowspan="2"><a href="">샘플</a></td>
     <td>
@@ -896,9 +896,13 @@
   </tr>
 
 
+
+
+
+
   
 <tr>
-    <td rowspan="3"><a href="">슬라이딩 윈도우</a></td>
+    <td rowspan="3"><a href="">🤔 슬라이딩 윈도우</a></td>
     <td>
       <a href="https://leetcode.com/problems/sliding-window-maximum/">🤔 최대 슬라이딩 윈도우</a></td>
     <td>
@@ -909,9 +913,6 @@
       <a href="./017-슬라이싱윈도우/239-sliding-window-maximum/NOTES.md">Notes</a>
     </td>
   </tr>
-
-
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/minimum-window-substring/">🤔 부분 문자열이 포함된 최소 윈도우</a></td>
@@ -937,7 +938,7 @@
 
   
    <tr>
-    <td rowspan="5"><a href="">그리디 알고리즘</a></td>
+    <td rowspan="5"><a href="https://velog.io/@dltjq2323/%EA%B7%B8%EB%A6%AC%EB%94%94Greedy-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98">그리디 알고리즘</a></td>
     <td>
       <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/">주식을 사고팔기 가장 좋은 시점II</a></td>
     <td>
@@ -1070,7 +1071,7 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/house-robber">집 도둑</a></td>
+      <a href="https://leetcode.com/problems/house-robber">🤔 집 도둑</a></td>
     <td>
       <a href="./20-다이나믹프로그래밍/198-house-robber/풀이1(브루트포스).py">풀이1(브루트포스)</a>, 
       <a href="./20-다이나믹프로그래밍/198-house-robber/풀이2(타블레이션).py">풀이(타블레이션[상향식])</a>, 
