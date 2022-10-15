@@ -276,34 +276,35 @@
 
 
   <tr>
-    <td rowspan="3"><a href="https://velog.io/@dltjq2323/%ED%81%90Queue">큐</a></td>
-    <td><a href="https://leetcode.com/problems/implement-stack-using-queues/">큐를 이용한 스택 구현</a></td>
+    <td rowspan="3"><a href="https://velog.io/@dltjq2323/%ED%81%90Queue">😗 큐</a></td>
+    <td><a href="https://leetcode.com/problems/implement-stack-using-queues/">😗 큐를 이용한 스택 구현</a></td>
       <td>
-        <a href="">풀이1(deque)</a>
+        <a href="./05-큐/225-implement-stack-using-queues/풀이1(deque).py">풀이1(deque)</a>
       </td>
       <td>
-        <a href="">Notes</a>
-      </td>
-  </tr>
-
-  <tr>
-    <td><a href="https://leetcode.com/problems/implement-queue-using-stacks/">스택을 이용한 큐 구현</a></td>
-      <td>
-        <a href="">풀이1(Array:2)</a>
-      </td>
-      <td>
-        <a href="">Notes</a>
+        <a href="./05-큐/225-implement-stack-using-queues/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
-    <td><a href="https://leetcode.com/problems/design-circular-queue/">원형 큐 디자인</a></td>
+    <td><a href="https://leetcode.com/problems/implement-queue-using-stacks/">😗 스택을 이용한 큐 구현</a></td>
       <td>
-        <a href="">풀이1(Array)</a>, 
-        <a href="">풀이2(LinkedList)</a>
+        <a href="./05-큐/232-implement-queue-using-stacks/풀이1(stack).py">풀이1(stack)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./05-큐/232-implement-queue-using-stacks/NOTES.md">Notes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td><a href="https://leetcode.com/problems/design-circular-queue/">😗 원형 큐 디자인</a></td>
+      <td>
+        <a href="./05-큐/622-design-circular-queue/풀이1-1(Array).py">풀이1-1(Array)</a>, 
+        <a href="./05-큐/622-design-circular-queue/풀이1-2(Array).py">풀이1-2(Array)</a>, 
+        <a href="./05-큐/622-design-circular-queue/풀이2(LinkedList).py">풀이2(LinkedList)</a>
+      </td>
+      <td>
+        <a href="./05-큐/622-design-circular-queue/NOTES.md">Notes</a>
       </td>
   </tr>
 
