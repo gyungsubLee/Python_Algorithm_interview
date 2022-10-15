@@ -18,6 +18,22 @@
 
 <img src="https://user-images.githubusercontent.com/95308384/194082748-15cb2f0f-2cd0-47b4-8f28-164700b92ebe.png" width=60% />
 
+<br>
+
+# ✍️ 문법
+
+|제목|
+|--|
+|[람다표현식](./문법/%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md)|
+|[슬라이싱](./문법/슬라이싱.md)|
+|[정렬(sorted,sort)](./문법/정렬(sorted,sort).md)|
+
+
+
+
+
+
+
 
 <br>
 
@@ -31,7 +47,7 @@
     <td><a href="./01-문자열조작/125-valid-palindrome/풀이1(Array).py">풀이1(Array)</a>, 
     <a href="./01-문자열조작/125-valid-palindrome/풀이2(Deque).py">풀이2(Deque)</a>, 
     <a href="./01-문자열조작/125-valid-palindrome/풀이3(슬라이싱).py">풀이3(슬라이싱)</a></td>
-    <td><a href="./01-문자열조작/125-valid-palindrome/NOTES.md">Notes</a><br/><a href="./문법/슬라이싱.md">슬라이싱</a></td>
+    <td><a href="./01-문자열조작/125-valid-palindrome/NOTES.md">Notes</a></td>
   </tr>
 
   <tr>
@@ -46,7 +62,7 @@
     <td><a href="https://leetcode.com/problems/reorder-data-in-log-files/">로그파일 재정렬</a></td>
     <td><a href="./01-문자열조작/937-reorder-data-in-log-files/풀이1(lambda).py">풀이1(lambda)</a>, 
     <a href="./01-문자열조작/937-reorder-data-in-log-files/풀이2.py">🤔 풀이2</a>
-    <td><a href="./01-문자열조작/937-reorder-data-in-log-files/NOTES.md">Notes</a><br/><a href="./문법/lambda.md">lambda</a></td>
+    <td><a href="./01-문자열조작/937-reorder-data-in-log-files/NOTES.md">Notes</a></td>
   </tr>
 
 
@@ -54,8 +70,7 @@
     <td><a href="https://leetcode.com/problems/most-common-word/">가장 흔한 단어</a></td>
     <td><a href="./01-문자열조작/819-most-common-word/풀이1(리스트컴프리헨션-max).py">풀이1(리스트컴프리헨션, max)</a>, 
     <a href="./01-문자열조작/819-most-common-word/풀이2(리스트컴프리헨션-Counter).py">풀이2(Couter)</a></td>
-    <td><a href="./01-문자열조작/819-most-common-word/NOTES.md">Notes</a>
-    <br><a href="./문법/Counter(most_common).md">Counter(most_common)</a></td>
+    <td><a href="./01-문자열조작/819-most-common-word/NOTES.md">Notes</a></td>
   </tr>
 
 
@@ -64,14 +79,13 @@
     <td><a href="./01-문자열조작/49-group-anagrams/풀이1(dict-정렬).py">풀이1(정렬)</a></td>
     <td>
       <a href="./01-문자열조작/49-group-anagrams/NOTES.md">Notes</a><br/>
-      <a href="./문법/정렬(sorted,sort).md">정렬(sort, sorted)</a>
     </td>
   </tr>
 
   <tr>
       <td><a href="https://leetcode.com/problems/longest-palindromic-substring/submissions/">가장 긴 팰린드롬 부분 문자열</a></td>
       <td><a href="./01-문자열조작/5-longest-palindromic-substring/풀이1(투포인터).py">풀이1(투포인트)</a></td>
-      <td><a href="./01-문자열조작/5-longest-palindromic-substring/NOTES.md">Notes</a><br/><a href="">유니코드, UTF-8</a></td>
+      <td><a href="./01-문자열조작/5-longest-palindromic-substring/NOTES.md">Notes</a></td>
   </tr>
 
 
@@ -150,7 +164,7 @@
 
 
   <tr>
-    <td rowspan="7"><a href="https://velog.io/@dltjq2323/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8Linked-List">연결리스트</a></td>
+    <td rowspan="7"><a href="https://velog.io/@dltjq2323/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8Linked-List">😗 연결리스트</a></td>
     <td><a href="https://leetcode.com/problems/palindrome-linked-list/">팰린드롬 연결리스트</a></td>
       <td>
         <a href="./03-연결리스트/234-palindrome-linked-list/풀이1(Array).py">풀이1(Array)</a>, 
@@ -191,7 +205,7 @@
       <td>
         <a href="./03-연결리스트/2-add-two-numbers/풀이1-1(역순-반복, LL-L).py">풀이1-1(역순-반복, LL-L)</a>, 
         <a href="./03-연결리스트/2-add-two-numbers/풀이1-2(역순-재귀, LL-L).py">풀이1-2(역순-재귀, LL-L)</a>, 
-        <a href="./03-연결리스트/2-add-two-numbers/풀이2(전가산기).py">풀이2(전가산기)</a>
+        <a href="./03-연결리스트/2-add-two-numbers/풀이2(전가산기).py">🤔 풀이2(전가산기)</a>
       </td>
       <td>
         <a href="./03-연결리스트/2-add-two-numbers/NOTES.md">Notes</a>
@@ -290,7 +304,7 @@
     <td><a href="https://leetcode.com/problems/implement-queue-using-stacks/">😗 스택을 이용한 큐 구현</a></td>
       <td>
         <a href="./05-큐/232-implement-queue-using-stacks/풀이1(stack).py">풀이1(stack)</a>
-      </td>
+      </td>`
       <td>
         <a href="./05-큐/232-implement-queue-using-stacks/NOTES.md">Notes</a>
       </td>
@@ -314,10 +328,10 @@
       <td>
         <a href="https://leetcode.com/problems/design-circular-deque/">원형 데크 디자인</a></td>
       <td>
-        <a href="">풀이1</a>
+        <a href="./06-데크/641-design-circular-deque/풀이1(이중연결리스트).py">풀이1(이중연결리스트)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./06-데크/641-design-circular-deque/NOTES.md">Notes</a>
       </td>
   </tr>
 
@@ -325,10 +339,11 @@
     <td>
         <a href="https://leetcode.com/problems/merge-k-sorted-lists/">k개 정렬 리스트 병합</a></td>
       <td>
-        <a href="">풀이1</a>
+        <a href="./06-데크/23-merge-k-sorted-lists/풀이1(우선순위큐).py">풀이1(우선순위큐)</a>, 
+        <a href="./06-데크/23-merge-k-sorted-lists/풀이2(mergesort).py">풀이2(mergesort)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./06-데크/23-merge-k-sorted-lists/NOTES.md">Notes</a>
       </td>
   </tr>
 
