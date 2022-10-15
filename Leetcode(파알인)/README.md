@@ -458,7 +458,7 @@
       <a href="https://leetcode.com/problems/combination-sum/">조합의 합</a></td>
     <td>
       <a href="./08-그래프(DFS,BFS)/39-combination-sum/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
-      <a href="./08-그래프(DFS,BFS)/39-combination-sum/풀이1(DFS-Stack).py">풀이1(DFS-Stack)</a>
+      <a href="./08-그래프(DFS,BFS)/39-combination-sum/풀이2(DFS-Stack).py">풀이2(DFS-Stack)</a>
     </td>
     <td>
       <a href="./08-그래프(DFS,BFS)/39-combination-sum/NOTES.md">Notes</a>
@@ -470,7 +470,7 @@
       <a href="https://leetcode.com/problems/subsets/">부분집합</a></td>
     <td>
       <a href="./08-그래프(DFS,BFS)/78-subsets/풀이1(DFS-재귀).py">풀이1(DFS-재귀)</a>, 
-      <a href="./08-그래프(DFS,BFS)/78-subsets/풀이1(DFS-Stack).py">풀이1(DFS-Stack)</a>
+      <a href="./08-그래프(DFS,BFS)/78-subsets/풀이2(DFS-Stack).py">풀이2(DFS-Stack)</a>
     </td>
     <td>
       <a href="./08-그래프(DFS,BFS)/78-subsets/NOTES.md">Notes</a>
@@ -511,22 +511,26 @@
   <tr>
     <td rowspan="2" href="">최단 경로 문제</td>
     <td>
-      <a href="https://leetcode.com/problems/network-delay-time/submissions/">네트워크 딜레이 타임</a></td>
+      <a href="https://leetcode.com/problems/network-delay-time/">네트워크 딜레이 타임</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./09-촤단경로[다익스트라]/743-network-delay-time/풀이1(다익스트라[heap]).py">풀이1(다익스트라[heap])</a>, 
+      <a href="./09-촤단경로[다익스트라]/743-network-delay-time/풀이2(다익스트라[Queue]).py">풀이2(다익스트라[Queue])</a>
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href=./09-촤단경로[다익스트라]/743-network-delay-time/NOTES.md">Notes</a>
     </td>
   </tr>
+
   <tr>
     <td>
       <a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/">K 경유지 내 가장 저렴한 항공권</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./09-촤단경로[다익스트라]/787-cheapest-flights-within-k-stops/풀이1-1(다익스트라[heaq]).py">풀이1-1(다익스트라[heaq])</a>, 
+      <a href="./09-촤단경로[다익스트라]/787-cheapest-flights-within-k-stops/풀이1-2X(time-over).py">풀이1-2X(time-over)</a>, 
+      <a href="./09-촤단경로[다익스트라]/787-cheapest-flights-within-k-stops/풀이2(Ballman ford).py">풀이2(Ballman ford)</a>, 
     </td>
     <td>
-      <a href="">Notes</a>
+      <a href="./09-촤단경로[다익스트라]/787-cheapest-flights-within-k-stops/NOTES.md">Notes</a>
     </td>
   </tr>
 
@@ -547,7 +551,7 @@
 
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/diameter-of-binary-tree/">이진트리의 직경</a></td>
+      <a href="https://leetcode.com/problems/diameter-of-binary-tree/">이진트리의 직경 - 정리 전</a></td>
     <td>
       <a href="">🤔풀이1(DFS)</a>
     </td>
