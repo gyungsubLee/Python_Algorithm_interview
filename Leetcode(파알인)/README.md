@@ -117,34 +117,32 @@
     <td><a href="https://leetcode.com/problems/array-partition/">
     배열 파티션1</a></td>
       <td>
-        <a href="">풀이1(배열)</a>, 
-        <a href="">풀이2(짝수합)</a>, 
-        <a href="">풀이3(슬라이싱)</a>
+        <a href="./02-배열/561-array-partition/풀이1(배열).py">풀이1(배열)</a>, 
+        <a href="./02-배열/561-array-partition/풀이2(짝수합).py">풀이2(짝수합)</a>, 
+        <a href="./02-배열/561-array-partition/풀이3(슬라이싱).py">풀이3(슬라이싱)</a>
       </td>
       <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
+        <a href="./02-배열/561-array-partition/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/product-of-array-except-self/">자신을 제외한 배열의 곱</a></td>
       <td>
-        <a href="">풀이1(left X right)</a>
+        <a href="./02-배열/238-product-of-array-except-self/풀이1(left X right).py">풀이1(left X right)</a>
       </td>
       <td>
-        <a href="">Notes</a>
-        <br/><a href="">Notes</a>
+        <a href="./02-배열/238-product-of-array-except-self/NOTES.md">Notes</a>
       </td>
   </tr>
 
   <tr>
     <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">주식을 사고팔기 가장 좋은 시점</a></td>
       <td>
-        <a href="">풀이1(min,max)</a>
+        <a href="./02-배열/121-best-time-to-buy-and-sell-stock/풀이1(min,max).py">풀이1(min,max)</a>
       </td>
       <td>
-        <a href="">Notes</a>
+        <a href="./02-배열/121-best-time-to-buy-and-sell-stock/NOTES.md">Notes</a>
       </td>
   </tr>
 
