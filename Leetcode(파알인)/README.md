@@ -182,7 +182,7 @@
     <td><a href="https://leetcode.com/problems/merge-two-sorted-lists/"> 두 정렬 리스트 병합</a></td>
       <td>
         <a href="./03-연결리스트/21-merge-two-sorted-lists/풀이1(dummy).py">풀이1(dummy)</a>, 
-        <a href="./03-연결리스트/21-merge-two-sorted-lists/풀이1(재귀).py">😗 풀이2(재귀)</a>
+        <a href="./03-연결리스트/21-merge-two-sorted-lists/풀이2(재귀).py">😗 풀이2(재귀)</a>
       </td>
       <td>
         <a href="./03-연결리스트/21-merge-two-sorted-lists/NOTES.md">Notes</a>
