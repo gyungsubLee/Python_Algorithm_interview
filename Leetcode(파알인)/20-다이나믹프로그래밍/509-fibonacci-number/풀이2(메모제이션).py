@@ -7,5 +7,6 @@ class Solution:
         
         if self.dp[n]:
             return self.dp[n]
+        self.dp[n] = self.fib(n-1) + self.fib(n-2)
         
-        return self.fib(n-1) + self.fib(n-2) 
+        return  self.dp[n]
