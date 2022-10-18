@@ -1,20 +1,12 @@
 # 👉 파이썬 알고리즘 인터뷰 정리본
 
-
-
-
-
 <br>
 
 구매 링크 - [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791189909178&orderClick=LEa&Kc=), [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=245495826)
 
-
 [파알인-github](https://github.com/onlybooks/algorithm-interview)
 
-
-
 <br>
-
 
 <img src="https://user-images.githubusercontent.com/95308384/194082748-15cb2f0f-2cd0-47b4-8f28-164700b92ebe.png" width=60% />
 
@@ -22,23 +14,15 @@
 
 # ✍️ 문법
 
-|제목|
-|--|
-|[람다표현식](./문법/%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md)|
-|[슬라이싱](./문법/슬라이싱.md)|
-|[정렬(sorted,sort)](./문법/정렬(sorted,sort).md)|
-
-
-
-
-
-
-
+| 제목                                                                  |
+| --------------------------------------------------------------------- |
+| [람다표현식](./문법/%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md) |
+| [슬라이싱](./문법/슬라이싱.md)                                        |
+| [정렬(sorted,sort)](<./문법/정렬(sorted,sort).md>)                    |
 
 <br>
 
 # ✍️ 문제
-
 
 <table>
   <tr>
@@ -65,14 +49,12 @@
     <td><a href="./01-문자열조작/937-reorder-data-in-log-files/NOTES.md">Notes</a></td>
   </tr>
 
-
    <tr>
     <td><a href="https://leetcode.com/problems/most-common-word/">가장 흔한 단어</a></td>
     <td><a href="./01-문자열조작/819-most-common-word/풀이1(리스트컴프리헨션-max).py">풀이1(리스트컴프리헨션, max)</a>, 
     <a href="./01-문자열조작/819-most-common-word/풀이2(리스트컴프리헨션-Counter).py">풀이2(Couter)</a></td>
     <td><a href="./01-문자열조작/819-most-common-word/NOTES.md">Notes</a></td>
   </tr>
-
 
    <tr>
     <td><a href="https://leetcode.com/problems/group-anagrams/submissions/">그룹 애너그램</a></td>
@@ -87,10 +69,6 @@
       <td><a href="./01-문자열조작/5-longest-palindromic-substring/풀이1(투포인터).py">풀이1(투포인트)</a></td>
       <td><a href="./01-문자열조작/5-longest-palindromic-substring/NOTES.md">Notes</a></td>
   </tr>
-
-
-
-
 
   <tr>
       <td rowspan="6" ><a href="https://velog.io/@dltjq2323/%EB%B0%B0%EC%97%B4">배열</a></td>
@@ -158,10 +136,6 @@
         <a href="./02-배열/121-best-time-to-buy-and-sell-stock/NOTES.md">Notes</a>
       </td>
   </tr>
-
-
-
-
 
   <tr>
     <td rowspan="7"><a href="https://velog.io/@dltjq2323/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8Linked-List">😗 연결리스트</a></td>
@@ -245,11 +219,6 @@
       </td>
   </tr>
 
-
-
-
-
-
   <tr>
     <td rowspan="3"><a href="https://velog.io/@dltjq2323/%EC%8A%A4%ED%83%9DStack">스택</a></td>
     <td><a href="https://leetcode.com/problems/valid-parentheses/">유효한 괄호</a></td>
@@ -284,11 +253,6 @@
       </td>
   </tr>
 
-
-
-
-
-
   <tr>
     <td rowspan="3"><a href="https://velog.io/@dltjq2323/%ED%81%90Queue">😗 큐</a></td>
     <td><a href="https://leetcode.com/problems/implement-stack-using-queues/">😗 큐를 이용한 스택 구현</a></td>
@@ -322,7 +286,6 @@
       </td>
   </tr>
 
-  
 <tr>
     <td rowspan="2"><a href="https://velog.io/@dltjq2323/Deque%EB%8D%B0%ED%81%90">데크(deque)</a></td>
       <td>
@@ -346,10 +309,6 @@
         <a href="./06-데크/23-merge-k-sorted-lists/NOTES.md">Notes</a>
       </td>
   </tr>
-
-
-
-
 
   <tr>
     <td rowspan="4"><a href="https://velog.io/@dltjq2323/%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94Hash-table" >해시테이블</a></td>
@@ -397,11 +356,6 @@
         <a href="./07-해시테이블/347-top-k-frequent-elements/NOTES.md">Notes</a>
       </td>
   </tr>
-
-
-
-
-
 
   <tr>
     <td rowspan="8"><a href="https://velog.io/@dltjq2323/%EA%B7%B8%EB%9E%98%ED%94%84-%EC%88%9C%ED%9A%8CDFS-BFS"">그래프(BFS, DFS)</a></td>
@@ -490,7 +444,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/course-schedule/">🤔 코스 스케줄</a></td>
@@ -503,10 +456,6 @@
       <a href="./08-그래프(DFS,BFS)/207-course-schedule/NOTES.md">Notes</a>
     </td>
   </tr>
-
-
-
-
 
   <tr>
     <td rowspan="2" href="">최단 경로 문제</td>
@@ -534,7 +483,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td rowspan="8"><a href="">😗 이진 트리</a></td>
     <td>
@@ -547,8 +495,6 @@
     </td>
   </tr>
 
-
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/diameter-of-binary-tree/">이진트리의 직경 - 정리 전</a></td>
@@ -559,7 +505,6 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
 
   <tr>
     <td>
@@ -629,7 +574,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td rowspan="4" href="">이진 탐색 트리</td>
     <td>
@@ -642,7 +586,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/">이진탐색트리를 더 큰 수 합계 트리로</a></td>
@@ -653,7 +596,6 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
 
   <tr>
     <td>
@@ -668,7 +610,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/minimum-distance-between-bst-nodes/">이진탐색트리 노드 간 최소거리</a></td>
@@ -681,7 +622,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td rowspan="1" href="">트리 순회</td>
     <td>
@@ -693,10 +633,6 @@
       <a href="">Notes</a>
     </td>
   </tr>
-
-
-
-
 
   <tr>
     <td rowspan="1"><a href="https://velog.io/@dltjq2323/%ED%9E%99heap">힙(heap)</a></td>
@@ -713,7 +649,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td rowspan="2"><a href="https://velog.io/@dltjq2323/트라이Trie#트라이trie">트라이</a></td>
     <td>
@@ -727,7 +662,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td>
       <a href="https://leetcode.com/problems/palindrome-pairs/">🤔 팰린드롬 페어</a></td>
@@ -738,14 +672,6 @@
       <a href="./13-트라이/336-palindrome-pairs/NOTES.md">Notes</a>
     </td>
   </tr>
-
-
-
-
-
-
-
-
 
   <tr>
     <td rowspan="7"><a href="">🤔 정렬</a></td>
@@ -829,12 +755,6 @@
     </td>
   </tr>
 
-
-
-
-
-
-
 <tr>
     <td rowspan="5"><a href="">🤔 이진 검색</a></td>
     <td>
@@ -847,7 +767,6 @@
       <a href="./15-이진검색/704-binary-search/NOTES.md">Notes</a>
     </td>
   </tr>
-
 
   <tr>
     <td>
@@ -899,11 +818,6 @@
     </td>
   </tr>
 
-
-
-
-
-
 <tr>
     <td rowspan="2"><a href="">샘플</a></td>
     <td>
@@ -916,7 +830,6 @@
     </td>
   </tr>
 
-
   <tr>
     <td>
       <a href=""></a></td>
@@ -928,12 +841,6 @@
     </td>
   </tr>
 
-
-
-
-
-
-  
 <tr>
     <td rowspan="3"><a href="">🤔 슬라이딩 윈도우</a></td>
     <td>
@@ -969,12 +876,6 @@
     </td>
   </tr>
 
-  
-
-
-
-
-
    <tr>
     <td rowspan="5"><a href="https://velog.io/@dltjq2323/%EA%B7%B8%EB%A6%AC%EB%94%94Greedy-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98">그리디 알고리즘</a></td>
     <td>
@@ -987,7 +888,6 @@
       <a href="./18-그리디/122-best-time-to-buy-and-sell-stock-ii/NOTES.md">Notes</a>
     </td>
   </tr>
-
 
   <tr>
     <td>
@@ -1036,11 +936,6 @@
     </td>
   </tr>
 
-
-
-
-
-
 <tr>
     <td rowspan="2"><a href="https://velog.io/@dltjq2323/%EB%B6%84%ED%95%A0-%EC%A0%95%EB%B3%B5%EB%B3%91%ED%95%A9-%EC%A0%95%EB%A0%AC">분할 정복</a></td>
     <td>
@@ -1067,10 +962,6 @@
     </td>
   </tr>
 
-
-
-
-
   <tr>
     <td rowspan="4"><a href="https://velog.io/@dltjq2323/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8DDynamic-programming">다이나믹 프로그래밍</a></td>
     <td>
@@ -1086,7 +977,6 @@
       <a href="./20-다이나믹프로그래밍/509-fibonacci-number/NOTES.md">Notes</a>
     </td>
   </tr>
-
 
   <tr>
     <td>
@@ -1126,23 +1016,78 @@
   </tr>
 
 <tr>
-    <td rowspan="2"><a href="">샘플</a></td>
+    <td rowspan="7"><a href="">카카오 공채(2017)</a></td>
     <td>
-      <a href=""></a></td>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/17681">비밀지도</a>
+    </td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./21-카카오(17)/1.비밀지도/풀이1.py">풀이1</a>
     </td>
     <td>
       <a href="">Notes</a>
     </td>
   </tr>
 
+  <tr>
+    <td>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/17682">다트 게임</a></td>
+    <td>
+      <a href="./21-카카오(17)/2.다트게임/풀이1.py">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
 
   <tr>
     <td>
-      <a href=""></a></td>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/17680">캐시</a></td>
     <td>
-      <a href="">풀이1</a>
+      <a href="./21-카카오(17)/3.캐시/풀이1.py">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://programmers.co.kr/learn/courses/30/lessons/17678">셔틀버스</a></td>
+    <td>
+      <a href="./21-카카오(17)/4.셔틀버스/풀이1.py">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://programmers.co.kr/learn/courses/30/lessons/17677">뉴스 클러스터링</a></td>
+    <td>
+      <a href="./21-카카오(17)/5.뉴스_클러스터링/풀이1.py">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://programmers.co.kr/learn/courses/30/lessons/17679">프렌즈4블록</a></td>
+    <td>
+      <a href="./21-카카오(17)/6.프렌즈4블록/풀이1.py">풀이1</a>
+    </td>
+    <td>
+      <a href="">Notes</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://programmers.co.kr/learn/courses/30/lessons/17676">추석 트래픽</a></td>
+    <td>
+      <a href="./21-카카오(17)/7.추석_트래픽/풀이1.py">풀이1</a>
     </td>
     <td>
       <a href="">Notes</a>
@@ -1150,4 +1095,3 @@
   </tr>
 
 </table>
-
