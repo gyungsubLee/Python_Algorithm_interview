@@ -19,6 +19,16 @@
 | [람다표현식](./문법/%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md) |
 | [슬라이싱](./문법/슬라이싱.md)                                        |
 | [정렬(sorted,sort)](<./문법/정렬(sorted,sort).md>)                    |
+| [Counter, most_common](./문법/Counter,most_common.md)                 |
+| [divmod()](<./문법/divmod().md>)                                      |
+| [enumerate()](<./문법/enumerate().md>)                                |
+| [for문](./문법/for문.md)                                              |
+| [heapq모듈](./문법/heapq모듈.md)                                      |
+| [items()-dictionary](<./문법/items()-dictionary.md>)                  |
+| [max(),min()](<./문법/max(),min().md>)                                |
+| [range()](<./문법/range().md>)                                        |
+| [set()](<./문법/set().md>)                                            |
+| [string-ASCII](./문법/string-ASCII.md)                                |
 
 <br>
 
