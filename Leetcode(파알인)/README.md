@@ -154,8 +154,8 @@
         <a href="./03-연결리스트/234-palindrome-linked-list/풀이1(Array).py">풀이1(Array)</a>, 
         <a href="./03-연결리스트/234-palindrome-linked-list/풀이2(Deque).py">풀이2(Deque)</a>,
         <a href="./03-연결리스트/234-palindrome-linked-list/풀이3(투포인터).py">풀이3(투포인터)</a>, 
-        <a href="./03-연결리스트/234-palindrome-linked-list/풀이4-1(런너).py">🤔 풀이4-1(런너)</a>, 
-        <a href="./03-연결리스트/234-palindrome-linked-list/풀이4-2(런너).py">🤔 풀이4-2(런너)</a>, 
+        <a href="./03-연결리스트/234-palindrome-linked-list/풀이4-1(런너).py">😗 풀이4-1(런너)</a>, 
+        <a href="./03-연결리스트/234-palindrome-linked-list/풀이4-2(런너).py">😗 풀이4-2(런너)</a>, 
       </td>
       <td>
         <a href="./03-연결리스트/234-palindrome-linked-list/NOTES.md">Notes</a>
@@ -199,9 +199,9 @@
   <tr>
     <td><a href="https://leetcode.com/problems/swap-nodes-in-pairs/">페어의 노드 스왑</a></td>
       <td>
-        <a href="./03-연결리스트/24-swap-nodes-in-pairs/풀이1(값만변경).py">풀이1(값만변경</a>, 
+        <a href="./03-연결리스트/24-swap-nodes-in-pairs/풀이1(값만변경).py">풀이1(값만변경)</a>, 
         <a href="./03-연결리스트/24-swap-nodes-in-pairs/풀이2(반복).py">풀이2(반복)</a>, 
-        <a href="./03-연결리스트/24-swap-nodes-in-pairs/풀이3(재귀).py">풀이3(재귀)</a>
+        <a href="./03-연결리스트/24-swap-nodes-in-pairs/풀이3(재귀).py">🤔풀이3(재귀)</a>
       </td>
       <td>
         <a href="./03-연결리스트/24-swap-nodes-in-pairs/NOTES.md">Notes</a>
