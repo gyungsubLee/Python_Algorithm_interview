@@ -370,7 +370,6 @@
   <tr>
     <td rowspan="8"><a href="https://velog.io/@dltjq2323/%EA%B7%B8%EB%9E%98%ED%94%84-%EC%88%9C%ED%9A%8CDFS-BFS">그래프(BFS, DFS)</a></td>
     <td>
-      <td>
         <a href="https://leetcode.com/problems/number-of-islands/">섬의 개수</a>
       </td>
       <td>
