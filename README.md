@@ -18,16 +18,16 @@
 | -------------------------------------------------------------------- |
 | [람다표현식](python_algorithm_interview/문법/람다표현식.md) |
 | [슬라이싱](python_algorithm_interview/문법/슬라이싱.md)                                       |
-| [정렬(sorted,sort)](python_algorithm_interview/문법/정렬(sorted,sort).md>)                   |
+| [정렬(sorted,sort)](python_algorithm_interview/문법/정렬(sorted,sort).md)                   |
 | [Counter, most_common](python_algorithm_interview/문법/Counter,most_common.md)                |
-| [divmod()](python_algorithm_interview/문법/divmod().md>)                                     |
-| [enumerate()](python_algorithm_interview/문법/enumerate().md>)                               |
+| [divmod()](python_algorithm_interview/문법/divmod().md)                                     |
+| [enumerate()](python_algorithm_interview/문법/enumerate().md)                               |
 | [for문](python_algorithm_interview/문법/for문.md)                                              |
 | [heapq모듈](python_algorithm_interview/문법/heapq모듈.md)                                      |
-| [items()-dictionary](python_algorithm_interview/문법/items()-dictionary.md>)                 |
-| [max(),min()](python_algorithm_interview/문법/max(),min().md>)                               |
-| [range()](python_algorithm_interview/문법/range().md>)                                       |
-| [set()](python_algorithm_interview/문법/set().md>)                                           |
+| [items()-dictionary](python_algorithm_interview/문법/items()-dictionary.md)                 |
+| [max(),min()](python_algorithm_interview/문법/max(),min().md)                               |
+| [range()](python_algorithm_interview/문법/range().md)                                       |
+| [set()](python_algorithm_interview/문법/set().md)                                           |
 | [string-ASCII](python_algorithm_interview/문법/string-ASCII.md)                                |
 
 <br>
@@ -84,12 +84,12 @@
       <td rowspan="6" ><a href="https://velog.io/@dltjq2323/%EB%B0%B0%EC%97%B4">배열</a></td>
       <td><a href="https://leetcode.com/problems/two-sum/submissions/">두 수의 합</a></td>
       <td>
-      <a href="python_algorithm_interview/02-배열/01-two-sum/풀이1(브루트포스).py">풀이1(브루트포스)</a>, 
-      <a href="python_algorithm_interview/02-배열/01-two-sum/풀이2(in탐색).py">풀이2(in탐색)</a>, 
-      <a href="python_algorithm_interview/02-배열/01-two-sum/풀이3-1(딕셔너리).py">풀이3-1(딕셔너리)</a>,
-      <a href="python_algorithm_interview/02-배열/01-two-sum/풀이3-2(딕셔너리).py">풀이3-2(딕셔너리)</a>, 
-      <a href="python_algorithm_interview/02-배열/01-two-sum/풀이4(투포인트).py">풀이4(투포인트)</a></td>
-      <td><a href="python_algorithm_interview/02-배열/01-two-sum/NOTES.md">Notes</a></td>
+      <a href="python_algorithm_interview/02-배열/1-two-sum/풀이1(브루트포스).py">풀이1(브루트포스)</a>, 
+      <a href="python_algorithm_interview/02-배열/1-two-sum/풀이2(in탐색).py">풀이2(in탐색)</a>, 
+      <a href="python_algorithm_interview/02-배열/1-two-sum/풀이3-1(딕셔너리).py">풀이3-1(딕셔너리)</a>,
+      <a href="python_algorithm_interview/02-배열/1-two-sum/풀이3-2(딕셔너리).py">풀이3-2(딕셔너리)</a>, 
+      <a href="python_algorithm_interview/02-배열/1-two-sum/풀이4(투포인터).py">풀이4(투포인터)</a></td>
+      <td><a href="python_algorithm_interview/02-배열/1-two-sum/NOTES.md">Notes</a></td>
   </tr>
   <tr>
       <td><a href="https://leetcode.com/problems/trapping-rain-water/">빗물 트래핑</a></td>
@@ -211,7 +211,7 @@
   <tr>
     <td><a href="https://leetcode.com/problems/odd-even-linked-list/">홀짝 연결리스트</a></td>
       <td>
-        <a href="python_algorithm_interview/03-연결리스트/328-odd-even-linked-list/풀이1(반복)">풀이1(반복)</a>
+        <a href="python_algorithm_interview/03-연결리스트/328-odd-even-linked-list/풀이1(반복).py">풀이1(반복)</a>
       </td>
       <td>
         <a href="python_algorithm_interview/03-연결리스트/328-odd-even-linked-list/NOTES.md">Notes</a>
@@ -447,7 +447,7 @@
     <td>
       <a href="https://leetcode.com/problems/reconstruct-itinerary/">🤔 일정 재구성</a></td>
     <td>
-      <a href="python_algorithm_interview/08-그래프(DFS,BFS)/332-reconstruct-itinerary/풀이1-1(DFS-재귀.py">풀이1-1(DFS-재귀)</a>,  
+      <a href="python_algorithm_interview/08-그래프(DFS,BFS)/332-reconstruct-itinerary/풀이1-1(DFS-재귀).py">풀이1-1(DFS-재귀)</a>,  
       <a href="python_algorithm_interview/08-그래프(DFS,BFS)/332-reconstruct-itinerary/풀이1-2(최적화-reverse).py">풀이1-2(최적화-reverse, 슬라이싱)</a>,  
       <a href="python_algorithm_interview/08-그래프(DFS,BFS)/332-reconstruct-itinerary/풀이2(DFS-Stack).py">풀이2(DFS-Stack)</a>
     </td>
@@ -478,7 +478,7 @@
       <a href="python_algorithm_interview/09-촤단경로[다익스트라]/743-network-delay-time/풀이2(다익스트라[Queue]).py">풀이2(다익스트라[Queue])</a>
     </td>
     <td>
-      <a href=./09-촤단경로[다익스트라]/743-network-delay-time/NOTES.md">Notes</a>
+      <a href="python_algorithm_interview/09-촤단경로[다익스트라]/743-network-delay-time/NOTES.md">Notes</a>
     </td>
   </tr>
 
@@ -751,7 +751,7 @@
       <a href="python_algorithm_interview/14-정렬/75-sort-colors/풀이1(퀵정렬).py">풀이1(퀵정렬)</a>
     </td>
     <td>
-      <a href=./14-정렬/75-sort-colors/NOTES.md">Notes</a>
+      <a href="python_algorithm_interview/14-정렬/75-sort-colors/NOTES.md">Notes</a>
     </td>
   </tr>
 
